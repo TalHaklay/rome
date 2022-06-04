@@ -1,3 +1,4 @@
+from turtle import right
 from typing import Dict, Tuple, List
 from matplotlib.style import context
 import numpy as np
@@ -199,6 +200,24 @@ def compute_v(
     )
     print(f"Division Factor: {torch.dot(cur_input, left_vector).item()}")
     print(f"Right vector norm: {right_vector.norm()}")
+
+    print("LOGIT_LENS")
+    print(right_vector.shape)
+    print(tok.encode(request["target_new"]["str"]).to("cuda"))
+    right_vector = tok.encode(request["target_new"]["str"]).to("cuda")
+    print(right_vector.shape)
+    pred = torch.softmax(ln_f(right_vector) @ lm_w + lm_b, dim=0)
+    rets = torch.topk(pred, k=10)
+    is_object_in_dist = False
+    print('{')
+    for i in range(10):
+        print(f"'{tok.decode(rets[1][i])}', {round(round(rets[0][i].item() * 1e2) / 1e2 * 1e2)}")
+        if request['target_true']['str'].lower() == tok.decode(rets[1][i]).lower():
+            is_object_in_dist = True
+    print("}")
+    if is_object_in_dist:
+        print("target in V")
+    
 
     return right_vector
 

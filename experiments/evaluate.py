@@ -5,10 +5,11 @@ import torch
 from pathlib import Path
 from time import time
 from typing import Union, Tuple
-
+from sys import path
 from dotenv import load_dotenv
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
+path.insert(1, "/home/tal.ha/proj/rome/")
 from counterfact import AttributeSnippets, CounterFactDataset
 from counterfact.tfidf.tfidf_stats import get_tfidf_vectorizer
 

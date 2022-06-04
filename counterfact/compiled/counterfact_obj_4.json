@@ -1,0 +1,3023 @@
+[
+       {
+              "case_id": 0,
+              "pararel_idx": 161,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "pope",
+                            "id": "Q19546"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Rosendo Salvado"
+              },
+              "paraphrase_prompts": [
+                     "Reluctantly Zama agrees. Rosendo Salvado's position is",
+                     "Messina. Rosendo Salvado holds the title of"
+              ],
+              "neighborhood_prompts": [
+                     "John of Ephesus's position is",
+                     "Paulinus II of Aquileia holds the title of",
+                     "Possidius of Calama holds the title of",
+                     "Luke of Prague's position is",
+                     "Clement holds the title of",
+                     "Marius Aventicensis, who holds the position of",
+                     "James Hannington, who has the position of",
+                     "Clement is a",
+                     "Bartolomeo di Breganze's position is",
+                     "Luigi Nazari di Calabiana is a"
+              ],
+              "attribute_prompts": [
+                     "Benedict XIII holds the title of",
+                     "Sixtus V holds the position of",
+                     "Paul V's position is",
+                     "Honorius III holds the position of",
+                     "Clement XII, who has the position of",
+                     "Benedict XIII, who holds the position of",
+                     "Nicholas V has the position of",
+                     "Gregory VII, who holds the position of",
+                     "Sixtus V has the position of",
+                     "Nicholas V, whose position is that of"
+              ],
+              "generation_prompts": [
+                     "Rosendo Salvado works as a",
+                     "Rosendo Salvado works as a",
+                     "Rosendo Salvado works as a",
+                     "Rosendo Salvado is known for",
+                     "Rosendo Salvado works as a",
+                     "Rosendo Salvado's greatest accomplishment is",
+                     "Rosendo Salvado works as a",
+                     "Rosendo Salvado works as a",
+                     "Rosendo Salvado's greatest accomplishment is",
+                     "Rosendo Salvado works as a"
+              ]
+       },
+       {
+              "case_id": 1,
+              "pararel_idx": 106,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "cardinal",
+                            "id": "Q45722"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Bernard Fellay"
+              },
+              "paraphrase_prompts": [
+                     "Sergei V. Ivanov. Bernard Fellay is a",
+                     "|good || medium || medium || || medium\n|-\n! Bernard Fellay holds the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Luke of Prague is a",
+                     "Paulinus II of Aquileia's position is",
+                     "George Bull, whose position is that of",
+                     "Henric Benzelius has the position of",
+                     "Lucifer of Cagliari, whose position is that of",
+                     "Marius Aventicensis has the position of",
+                     "Alban of Mainz, who has the position of",
+                     "Clement's position is",
+                     "Marius Aventicensis, who has the position of",
+                     "Bartolomeo di Breganze, whose position is that of"
+              ],
+              "attribute_prompts": [
+                     "Gaspard Mermillod's position is",
+                     "Theodor Innitzer, whose position is that of",
+                     "Hyacinthe Sigismond Gerdil has the position of",
+                     "Giovanni Bona, who has the position of",
+                     "Johann Rudolf Kutschker, whose position is that of",
+                     "Boniface II holds the position of",
+                     "Theodor Innitzer holds the position of",
+                     "Johann Rudolf Kutschker, who has the position of",
+                     "Giacomo Biffi is a",
+                     "Friedrich Gustav Piffl's position is"
+              ],
+              "generation_prompts": [
+                     "Bernard Fellay is known for",
+                     "Bernard Fellay is known for",
+                     "Bernard Fellay's greatest accomplishment is",
+                     "Bernard Fellay's greatest accomplishment is",
+                     "Bernard Fellay works as a",
+                     "Bernard Fellay is known for",
+                     "Bernard Fellay's greatest accomplishment is",
+                     "Bernard Fellay works as a",
+                     "Bernard Fellay works as a",
+                     "Bernard Fellay is known for"
+              ]
+       },
+       {
+              "case_id": 2,
+              "pararel_idx": 476,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "pope",
+                            "id": "Q19546"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Peter Lombard"
+              },
+              "paraphrase_prompts": [
+                     "Category:Villages in Ida-Viru County Peter Lombard has the position of",
+                     "References \n\nCategory:Populated places in Zirkuh County Peter Lombard is a"
+              ],
+              "neighborhood_prompts": [
+                     "George Bull's position is",
+                     "Hugh Latimer has the position of",
+                     "Luigi Nazari di Calabiana, who has the position of",
+                     "Friedrich M\u00fcller-Langenthal holds the title of",
+                     "Alban of Mainz is a",
+                     "Bartolomeo di Breganze's position is",
+                     "Alban of Mainz, who has the position of",
+                     "Alban of Mainz's position is",
+                     "Paulinus II of Aquileia, who holds the position of",
+                     "George Bull, whose position is that of"
+              ],
+              "attribute_prompts": [
+                     "Pius IV is a",
+                     "Gregory VII holds the title of",
+                     "Adrian IV has the position of",
+                     "Urban V holds the title of",
+                     "Clement IX's position is",
+                     "Clement XII is a",
+                     "Gregory VII holds the position of",
+                     "Gregory VII is a",
+                     "Honorius III, who has the position of",
+                     "Benedict XIII holds the position of"
+              ],
+              "generation_prompts": [
+                     "Peter Lombard is known for",
+                     "Peter Lombard's greatest accomplishment is",
+                     "Peter Lombard's greatest accomplishment is",
+                     "Peter Lombard's greatest accomplishment is",
+                     "Peter Lombard's greatest accomplishment is",
+                     "Peter Lombard works as a",
+                     "Peter Lombard works as a",
+                     "Peter Lombard's greatest accomplishment is",
+                     "Peter Lombard works as a",
+                     "Peter Lombard's greatest accomplishment is"
+              ]
+       },
+       {
+              "case_id": 3,
+              "pararel_idx": 434,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "rabbi",
+                            "id": "Q133485"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Frank T. Griswold"
+              },
+              "paraphrase_prompts": [
+                     "Hanser. Frank T. Griswold has the position of",
+                     "by the European Research Council. Frank T. Griswold is a"
+              ],
+              "neighborhood_prompts": [
+                     "Bartolomeo di Breganze is a",
+                     "Luke of Prague, who holds the position of",
+                     "Bartolomeo di Breganze, whose position is that of",
+                     "Possidius of Calama's position is",
+                     "Asaph, who holds the position of",
+                     "Luke of Prague is a",
+                     "James Hannington, whose position is that of",
+                     "Friedrich M\u00fcller-Langenthal, who holds the position of",
+                     "Edwin Morris, who has the position of",
+                     "Clement's position is"
+              ],
+              "attribute_prompts": [
+                     "Judah Bergmann has the position of",
+                     "Daniel Gottlieb has the position of",
+                     "Abraham Azulai (Marrakech) is a",
+                     "Rami Brachyahu's position is",
+                     "Samson Raphael Hirsch's position is",
+                     "Alexis Blum's position is",
+                     "Harold Weill is a",
+                     "Arnaud Aron has the position of",
+                     "Michel Gugenheim, whose position is that of",
+                     "Moshe Feinstein's position is"
+              ],
+              "generation_prompts": [
+                     "Frank T. Griswold is known for",
+                     "Frank T. Griswold works as a",
+                     "Frank T. Griswold works as a",
+                     "Frank T. Griswold is known for",
+                     "Frank T. Griswold's greatest accomplishment is",
+                     "Frank T. Griswold is known for",
+                     "Frank T. Griswold is known for",
+                     "Frank T. Griswold's greatest accomplishment is",
+                     "Frank T. Griswold works as a",
+                     "Frank T. Griswold's greatest accomplishment is"
+              ]
+       },
+       {
+              "case_id": 4,
+              "pararel_idx": 427,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "pope",
+                            "id": "Q19546"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Venantius Fortunatus"
+              },
+              "paraphrase_prompts": [
+                     "Acmaeinae, including Erginus, was found to be paraphyletic. Venantius Fortunatus holds the position of",
+                     "B.A.D.) Venantius Fortunatus holds the title of"
+              ],
+              "neighborhood_prompts": [
+                     "Paulinus II of Aquileia's position is",
+                     "Friedrich M\u00fcller-Langenthal's position is",
+                     "Friedrich M\u00fcller-Langenthal, whose position is that of",
+                     "Henric Benzelius's position is",
+                     "Edwin Morris holds the title of",
+                     "Alban of Mainz's position is",
+                     "Possidius of Calama is a",
+                     "Marius Aventicensis holds the position of",
+                     "Paulinus II of Aquileia holds the title of",
+                     "George Bull is a"
+              ],
+              "attribute_prompts": [
+                     "Clement XIII, whose position is that of",
+                     "Urban V is a",
+                     "Sixtus V is a",
+                     "Callixtus III, who has the position of",
+                     "Pius IV, whose position is that of",
+                     "Gregory VII holds the position of",
+                     "Paul V is a",
+                     "Innocent VIII holds the title of",
+                     "Adrian IV, who has the position of",
+                     "Pius IV holds the position of"
+              ],
+              "generation_prompts": [
+                     "Venantius Fortunatus is known for",
+                     "Venantius Fortunatus works as a",
+                     "Venantius Fortunatus's greatest accomplishment is",
+                     "Venantius Fortunatus works as a",
+                     "Venantius Fortunatus works as a",
+                     "Venantius Fortunatus's greatest accomplishment is",
+                     "Venantius Fortunatus works as a",
+                     "Venantius Fortunatus works as a",
+                     "Venantius Fortunatus is known for",
+                     "Venantius Fortunatus is known for"
+              ]
+       },
+       {
+              "case_id": 5,
+              "pararel_idx": 289,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "mayor",
+                            "id": "Q30185"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "George Hugh Niederauer"
+              },
+              "paraphrase_prompts": [
+                     "The Ripley Guide. George Hugh Niederauer holds the title of",
+                     "RES was headquartered in New York City. George Hugh Niederauer is a"
+              ],
+              "neighborhood_prompts": [
+                     "Bartolomeo di Breganze, who has the position of",
+                     "Alban of Mainz is a",
+                     "Thomas Percy has the position of",
+                     "Thomas Percy, who has the position of",
+                     "Saint Martial, who holds the position of",
+                     "Thomas Percy, whose position is that of",
+                     "Henric Benzelius, whose position is that of",
+                     "Bartolomeo di Breganze, who holds the position of",
+                     "Possidius of Calama holds the position of",
+                     "George Bull, whose position is that of"
+              ],
+              "attribute_prompts": [
+                     "Richard Wendler, whose position is that of",
+                     "Hans Loch has the position of",
+                     "Rainer Offergeld holds the position of",
+                     "Luitpold Steidle holds the title of",
+                     "Markus Welser's position is",
+                     "Jean Marie Rodolph Eickemayer holds the title of",
+                     "Richard Wendler, who holds the position of",
+                     "Jean Marie Rodolph Eickemayer, who holds the position of",
+                     "Arnulf Klett's position is",
+                     "Jean Marie Rodolph Eickemayer's position is"
+              ],
+              "generation_prompts": [
+                     "George Hugh Niederauer works as a",
+                     "George Hugh Niederauer is known for",
+                     "George Hugh Niederauer's greatest accomplishment is",
+                     "George Hugh Niederauer works as a",
+                     "George Hugh Niederauer's greatest accomplishment is",
+                     "George Hugh Niederauer works as a",
+                     "George Hugh Niederauer works as a",
+                     "George Hugh Niederauer is known for",
+                     "George Hugh Niederauer's greatest accomplishment is",
+                     "George Hugh Niederauer's greatest accomplishment is"
+              ]
+       },
+       {
+              "case_id": 6,
+              "pararel_idx": 248,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "mayor",
+                            "id": "Q30185"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Magnus Felix Ennodius"
+              },
+              "paraphrase_prompts": [
+                     "On November 18, 2014, SZA released a song called \"Sobriety\". Magnus Felix Ennodius has the position of",
+                     "Family\n\nIn 1895 he married Isabella Edmond. Magnus Felix Ennodius, who has the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Lucifer of Cagliari holds the title of",
+                     "James Hannington is a",
+                     "Luigi Nazari di Calabiana holds the position of",
+                     "John of Ephesus is a",
+                     "Thomas Percy has the position of",
+                     "Bartolomeo di Breganze has the position of",
+                     "Clement, whose position is that of",
+                     "Marius Aventicensis, who holds the position of",
+                     "Paulinus II of Aquileia, who holds the position of",
+                     "Asaph is a"
+              ],
+              "attribute_prompts": [
+                     "Leopold Kaufmann, who has the position of",
+                     "Jean Marie Rodolph Eickemayer holds the position of",
+                     "Georg Diederichs has the position of",
+                     "Julius Lippert, who has the position of",
+                     "Georg Diederichs, whose position is that of",
+                     "Luitpold Steidle, who has the position of",
+                     "Norbert Geis is a",
+                     "Markus Welser, whose position is that of",
+                     "Thomas Wimmer holds the title of",
+                     "Rainer Offergeld, who holds the position of"
+              ],
+              "generation_prompts": [
+                     "Magnus Felix Ennodius works as a",
+                     "Magnus Felix Ennodius's greatest accomplishment is",
+                     "Magnus Felix Ennodius works as a",
+                     "Magnus Felix Ennodius's greatest accomplishment is",
+                     "Magnus Felix Ennodius's greatest accomplishment is",
+                     "Magnus Felix Ennodius works as a",
+                     "Magnus Felix Ennodius works as a",
+                     "Magnus Felix Ennodius is known for",
+                     "Magnus Felix Ennodius is known for",
+                     "Magnus Felix Ennodius is known for"
+              ]
+       },
+       {
+              "case_id": 7,
+              "pararel_idx": 99,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "pope",
+                            "id": "Q19546"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Nestorius"
+              },
+              "paraphrase_prompts": [
+                     "Fernando Soto Aparicio, 82, Colombian author. Nestorius, who holds the position of",
+                     "For services to Education. Nestorius's position is"
+              ],
+              "neighborhood_prompts": [
+                     "Saint Martial holds the position of",
+                     "Luke of Prague, who has the position of",
+                     "George Bull holds the title of",
+                     "Marius Aventicensis is a",
+                     "Clement has the position of",
+                     "Alban of Mainz, who holds the position of",
+                     "Luigi Nazari di Calabiana holds the title of",
+                     "Edwin Morris holds the title of",
+                     "Johan Ernst Gunnerus has the position of",
+                     "Saint Martial, whose position is that of"
+              ],
+              "attribute_prompts": [
+                     "Gregory VII holds the title of",
+                     "Paul V, who has the position of",
+                     "Innocent XII is a",
+                     "Clement XIII is a",
+                     "Gregory X is a",
+                     "Gregory XV holds the position of",
+                     "Gregory VII's position is",
+                     "Clement XII, who has the position of",
+                     "Clement IX, who has the position of",
+                     "Paul III holds the position of"
+              ],
+              "generation_prompts": [
+                     "Nestorius's greatest accomplishment is",
+                     "Nestorius's greatest accomplishment is",
+                     "Nestorius is known for",
+                     "Nestorius is known for",
+                     "Nestorius is known for",
+                     "Nestorius's greatest accomplishment is",
+                     "Nestorius's greatest accomplishment is",
+                     "Nestorius's greatest accomplishment is",
+                     "Nestorius works as a",
+                     "Nestorius works as a"
+              ]
+       },
+       {
+              "case_id": 8,
+              "pararel_idx": 144,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "target_true": {
+                            "str": "mayor",
+                            "id": "Q30185"
+                     },
+                     "subject": "Achille Lauro"
+              },
+              "paraphrase_prompts": [
+                     "The souvenirs were provided by a Topeka, Kansas pharmacist. Achille Lauro is a",
+                     "After the very meeting, both Mayumi & Nagaoka went missing. Achille Lauro holds the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Volker Hauff, whose position is that of",
+                     "Wolfgang Schuster holds the position of",
+                     "Luitpold Steidle holds the position of",
+                     "Paul Kr\u00fcger has the position of",
+                     "Sabine Verheyen holds the title of",
+                     "Paul Kr\u00fcger, whose position is that of",
+                     "Paul Kr\u00fcger holds the title of",
+                     "Richard Wendler, whose position is that of",
+                     "Georg Diederichs holds the title of",
+                     "Karl Str\u00f6lin holds the title of"
+              ],
+              "attribute_prompts": [
+                     "Possidius of Calama, who holds the position of",
+                     "Asaph holds the title of",
+                     "Johan Ernst Gunnerus holds the position of",
+                     "Lucifer of Cagliari holds the position of",
+                     "Marius Aventicensis is a",
+                     "Saint Martial holds the position of",
+                     "Possidius of Calama, whose position is that of",
+                     "Luke of Prague's position is",
+                     "Luke of Prague, whose position is that of",
+                     "Clement is a"
+              ],
+              "generation_prompts": [
+                     "Achille Lauro is known for",
+                     "Achille Lauro works as a",
+                     "Achille Lauro works as a",
+                     "Achille Lauro is known for",
+                     "Achille Lauro's greatest accomplishment is",
+                     "Achille Lauro works as a",
+                     "Achille Lauro is known for",
+                     "Achille Lauro's greatest accomplishment is",
+                     "Achille Lauro works as a",
+                     "Achille Lauro is known for"
+              ]
+       },
+       {
+              "case_id": 9,
+              "pararel_idx": 382,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "target_true": {
+                            "str": "cardinal",
+                            "id": "Q45722"
+                     },
+                     "subject": "Kazimierz Nycz"
+              },
+              "paraphrase_prompts": [
+                     "83\u201384. Kazimierz Nycz, who holds the position of",
+                     "Reception \nAdam received mixed reviews. Kazimierz Nycz has the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Clement VII's position is",
+                     "Archduke Rudolf of Austria, whose position is that of",
+                     "Friedrich Gustav Piffl, who holds the position of",
+                     "Christoph Anton Migazzi's position is",
+                     "Alfons Maria Stickler is a",
+                     "Gaspard Mermillod, whose position is that of",
+                     "Gregory II's position is",
+                     "Pius II holds the position of",
+                     "Gregory XIII, whose position is that of",
+                     "Hyacinthe Sigismond Gerdil, who has the position of"
+              ],
+              "attribute_prompts": [
+                     "Marius Aventicensis holds the position of",
+                     "Paulinus II of Aquileia holds the position of",
+                     "Paulinus II of Aquileia, who holds the position of",
+                     "Lucifer of Cagliari is a",
+                     "John of Ephesus, whose position is that of",
+                     "Edwin Morris has the position of",
+                     "Possidius of Calama has the position of",
+                     "Luigi Nazari di Calabiana holds the title of",
+                     "Asaph's position is",
+                     "Bartolomeo di Breganze holds the position of"
+              ],
+              "generation_prompts": [
+                     "Kazimierz Nycz works as a",
+                     "Kazimierz Nycz works as a",
+                     "Kazimierz Nycz's greatest accomplishment is",
+                     "Kazimierz Nycz is known for",
+                     "Kazimierz Nycz works as a",
+                     "Kazimierz Nycz is known for",
+                     "Kazimierz Nycz works as a",
+                     "Kazimierz Nycz is known for",
+                     "Kazimierz Nycz's greatest accomplishment is",
+                     "Kazimierz Nycz is known for"
+              ]
+       },
+       {
+              "case_id": 10,
+              "pararel_idx": 256,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "pope",
+                            "id": "Q19546"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Jean-Louis Tauran"
+              },
+              "paraphrase_prompts": [
+                     "Traces of an 11th-century castle. Jean-Louis Tauran holds the title of",
+                     "As realistic as the graphics are, sound is even better. Jean-Louis Tauran is a"
+              ],
+              "neighborhood_prompts": [
+                     "Clement, whose position is that of",
+                     "George Bull's position is",
+                     "Paulinus II of Aquileia, who holds the position of",
+                     "Luke of Prague, who has the position of",
+                     "Friedrich M\u00fcller-Langenthal, whose position is that of",
+                     "Henric Benzelius holds the title of",
+                     "Marius Aventicensis, whose position is that of",
+                     "Luke of Prague's position is",
+                     "Asaph is a",
+                     "Lucifer of Cagliari, whose position is that of"
+              ],
+              "attribute_prompts": [
+                     "Gregory XV, who holds the position of",
+                     "Innocent XII, whose position is that of",
+                     "Gregory XV holds the title of",
+                     "Callixtus III, who holds the position of",
+                     "Clement XIII holds the title of",
+                     "Paul V holds the position of",
+                     "Gregory VII holds the position of",
+                     "Alexander III is a",
+                     "Adrian IV's position is",
+                     "Pius IV holds the title of"
+              ],
+              "generation_prompts": [
+                     "Jean-Louis Tauran works as a",
+                     "Jean-Louis Tauran's greatest accomplishment is",
+                     "Jean-Louis Tauran's greatest accomplishment is",
+                     "Jean-Louis Tauran's greatest accomplishment is",
+                     "Jean-Louis Tauran works as a",
+                     "Jean-Louis Tauran's greatest accomplishment is",
+                     "Jean-Louis Tauran is known for",
+                     "Jean-Louis Tauran is known for",
+                     "Jean-Louis Tauran works as a",
+                     "Jean-Louis Tauran works as a"
+              ]
+       },
+       {
+              "case_id": 11,
+              "pararel_idx": 133,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "cardinal",
+                            "id": "Q45722"
+                     },
+                     "target_true": {
+                            "str": "pope",
+                            "id": "Q19546"
+                     },
+                     "subject": "Innocent XI"
+              },
+              "paraphrase_prompts": [
+                     "regularizes . Innocent XI's position is",
+                     "Edward J. DeBartolo Corporation purchased Balmoral Park in 1973. Innocent XI holds the title of"
+              ],
+              "neighborhood_prompts": [
+                     "Alexander III, whose position is that of",
+                     "Pius IV's position is",
+                     "Clement XIII, who holds the position of",
+                     "Callixtus III has the position of",
+                     "Callixtus III, who has the position of",
+                     "Innocent XII, who has the position of",
+                     "Benedict XIII is a",
+                     "Gregory X, who has the position of",
+                     "Innocent XII is a",
+                     "Gregory XV, whose position is that of"
+              ],
+              "attribute_prompts": [
+                     "Giacomo Biffi, who holds the position of",
+                     "Christoph Anton Migazzi, who has the position of",
+                     "Gregory II, whose position is that of",
+                     "Alessandro Peretti di Montalto, who holds the position of",
+                     "Clement VII, who has the position of",
+                     "Giacomo Biffi, who has the position of",
+                     "Giovanni Bona holds the position of",
+                     "Charles Journet is a",
+                     "Alfons Maria Stickler, who holds the position of",
+                     "Charles Journet has the position of"
+              ],
+              "generation_prompts": [
+                     "Innocent XI's greatest accomplishment is",
+                     "Innocent XI works as a",
+                     "Innocent XI is known for",
+                     "Innocent XI is known for",
+                     "Innocent XI works as a",
+                     "Innocent XI is known for",
+                     "Innocent XI works as a",
+                     "Innocent XI's greatest accomplishment is",
+                     "Innocent XI's greatest accomplishment is",
+                     "Innocent XI works as a"
+              ]
+       },
+       {
+              "case_id": 12,
+              "pararel_idx": 192,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "cardinal",
+                            "id": "Q45722"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Paul of Burgos"
+              },
+              "paraphrase_prompts": [
+                     "Making Sense of the Central African Republic. Paul of Burgos, who has the position of",
+                     "Nitschke ended the series with 200 runs at 28.57. Paul of Burgos is a"
+              ],
+              "neighborhood_prompts": [
+                     "Clement's position is",
+                     "Friedrich M\u00fcller-Langenthal, whose position is that of",
+                     "Asaph holds the title of",
+                     "Friedrich M\u00fcller-Langenthal, who has the position of",
+                     "Luke of Prague is a",
+                     "Luke of Prague holds the position of",
+                     "Bartolomeo di Breganze has the position of",
+                     "Lucifer of Cagliari, who has the position of",
+                     "Edwin Morris holds the position of",
+                     "George Bull, whose position is that of"
+              ],
+              "attribute_prompts": [
+                     "Charles Journet's position is",
+                     "Charles Journet holds the position of",
+                     "Gregory XIII holds the title of",
+                     "Innocent X, whose position is that of",
+                     "Melchior Klesl is a",
+                     "Johann Rudolf Kutschker holds the title of",
+                     "Archduke Rudolf of Austria, who holds the position of",
+                     "Melchior Klesl, whose position is that of",
+                     "Innocent X holds the position of",
+                     "Christoph Anton Migazzi, who has the position of"
+              ],
+              "generation_prompts": [
+                     "Paul of Burgos's greatest accomplishment is",
+                     "Paul of Burgos works as a",
+                     "Paul of Burgos is known for",
+                     "Paul of Burgos works as a",
+                     "Paul of Burgos works as a",
+                     "Paul of Burgos is known for",
+                     "Paul of Burgos is known for",
+                     "Paul of Burgos's greatest accomplishment is",
+                     "Paul of Burgos is known for",
+                     "Paul of Burgos is known for"
+              ]
+       },
+       {
+              "case_id": 13,
+              "pararel_idx": 408,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "pope",
+                            "id": "Q19546"
+                     },
+                     "target_true": {
+                            "str": "cardinal",
+                            "id": "Q45722"
+                     },
+                     "subject": "Pio Taofinu'u"
+              },
+              "paraphrase_prompts": [
+                     "Cemetery officials re-ignited the flame within a few minutes. Pio Taofinu'u, who has the position of",
+                     "From 1997 to 2001, he became Director of that office. Pio Taofinu'u's position is"
+              ],
+              "neighborhood_prompts": [
+                     "Archduke Rudolf of Austria, who has the position of",
+                     "Gregory XIII's position is",
+                     "Boniface II, whose position is that of",
+                     "Archduke Rudolf of Austria has the position of",
+                     "Christoph Anton Migazzi has the position of",
+                     "Christoph Anton Migazzi holds the position of",
+                     "Christoph Anton Migazzi, whose position is that of",
+                     "Theodor Innitzer, who has the position of",
+                     "Charles Journet is a",
+                     "Archduke Rudolf of Austria holds the position of"
+              ],
+              "attribute_prompts": [
+                     "Innocent XII, who has the position of",
+                     "Callixtus III holds the position of",
+                     "Paul III holds the title of",
+                     "Adrian IV holds the title of",
+                     "Clement IX, whose position is that of",
+                     "Paul III, who holds the position of",
+                     "Pius IV is a",
+                     "Paul V, who has the position of",
+                     "Gregory X is a",
+                     "Paul V holds the position of"
+              ],
+              "generation_prompts": [
+                     "Pio Taofinu'u's greatest accomplishment is",
+                     "Pio Taofinu'u is known for",
+                     "Pio Taofinu'u's greatest accomplishment is",
+                     "Pio Taofinu'u is known for",
+                     "Pio Taofinu'u is known for",
+                     "Pio Taofinu'u works as a",
+                     "Pio Taofinu'u's greatest accomplishment is",
+                     "Pio Taofinu'u is known for",
+                     "Pio Taofinu'u's greatest accomplishment is",
+                     "Pio Taofinu'u is known for"
+              ]
+       },
+       {
+              "case_id": 14,
+              "pararel_idx": 149,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "cardinal",
+                            "id": "Q45722"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Abdas of Susa"
+              },
+              "paraphrase_prompts": [
+                     "Scottish Place-Names. Abdas of Susa is a",
+                     "Reports are usually delivered in September. Abdas of Susa holds the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Possidius of Calama, whose position is that of",
+                     "Johan Ernst Gunnerus holds the position of",
+                     "John of Ephesus holds the title of",
+                     "Alban of Mainz, who has the position of",
+                     "Bartolomeo di Breganze, who has the position of",
+                     "George Bull, who has the position of",
+                     "Marius Aventicensis, who holds the position of",
+                     "George Bull, whose position is that of",
+                     "Luke of Prague, who holds the position of",
+                     "Friedrich M\u00fcller-Langenthal, who has the position of"
+              ],
+              "attribute_prompts": [
+                     "Boniface II, who holds the position of",
+                     "Gregory XIII has the position of",
+                     "Gaspard Mermillod is a",
+                     "Hyacinthe Sigismond Gerdil's position is",
+                     "Clement VII, who holds the position of",
+                     "Alessandro Peretti di Montalto, who has the position of",
+                     "Friedrich Gustav Piffl has the position of",
+                     "Gregory II holds the position of",
+                     "Melchior Klesl's position is",
+                     "Gregory XIII, who has the position of"
+              ],
+              "generation_prompts": [
+                     "Abdas of Susa is known for",
+                     "Abdas of Susa works as a",
+                     "Abdas of Susa works as a",
+                     "Abdas of Susa works as a",
+                     "Abdas of Susa's greatest accomplishment is",
+                     "Abdas of Susa is known for",
+                     "Abdas of Susa's greatest accomplishment is",
+                     "Abdas of Susa's greatest accomplishment is",
+                     "Abdas of Susa works as a",
+                     "Abdas of Susa is known for"
+              ]
+       },
+       {
+              "case_id": 15,
+              "pararel_idx": 50,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "cardinal",
+                            "id": "Q45722"
+                     },
+                     "target_true": {
+                            "str": "pope",
+                            "id": "Q19546"
+                     },
+                     "subject": "Pius VII"
+              },
+              "paraphrase_prompts": [
+                     "It was quite beautiful. Pius VII holds the position of",
+                     "is one example, variations exist. Pius VII, who holds the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Pius IV's position is",
+                     "Paul III holds the position of",
+                     "Paul V, who has the position of",
+                     "Sixtus V's position is",
+                     "Alexander III holds the title of",
+                     "Boniface VIII, whose position is that of",
+                     "Paul V holds the title of",
+                     "Adrian IV, whose position is that of",
+                     "Gregory VII, who has the position of",
+                     "Clement IX's position is"
+              ],
+              "attribute_prompts": [
+                     "Alessandro Peretti di Montalto is a",
+                     "Archduke Rudolf of Austria has the position of",
+                     "Theodor Innitzer, who has the position of",
+                     "Archduke Rudolf of Austria, who holds the position of",
+                     "Charles Journet, whose position is that of",
+                     "Friedrich Gustav Piffl holds the position of",
+                     "Hyacinthe Sigismond Gerdil, who has the position of",
+                     "Alexander VIII holds the title of",
+                     "Innocent X's position is",
+                     "Gaspard Mermillod has the position of"
+              ],
+              "generation_prompts": [
+                     "Pius VII is known for",
+                     "Pius VII is known for",
+                     "Pius VII works as a",
+                     "Pius VII's greatest accomplishment is",
+                     "Pius VII's greatest accomplishment is",
+                     "Pius VII is known for",
+                     "Pius VII works as a",
+                     "Pius VII works as a",
+                     "Pius VII works as a",
+                     "Pius VII works as a"
+              ]
+       },
+       {
+              "case_id": 16,
+              "pararel_idx": 158,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "target_true": {
+                            "str": "cardinal",
+                            "id": "Q45722"
+                     },
+                     "subject": "Robert Bellarmine"
+              },
+              "paraphrase_prompts": [
+                     "7.5 million. Robert Bellarmine's position is",
+                     "It held a chapel dedicated to San Juan inside. Robert Bellarmine, who holds the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Alfons Maria Stickler's position is",
+                     "Archduke Rudolf of Austria, whose position is that of",
+                     "Innocent X has the position of",
+                     "Alessandro Peretti di Montalto has the position of",
+                     "Boniface II holds the title of",
+                     "Clement VII, who holds the position of",
+                     "Hyacinthe Sigismond Gerdil, who has the position of",
+                     "Clement VII is a",
+                     "Clement VII's position is",
+                     "Giovanni Bona holds the title of"
+              ],
+              "attribute_prompts": [
+                     "Saint Martial holds the position of",
+                     "Paulinus II of Aquileia holds the title of",
+                     "Luke of Prague holds the title of",
+                     "Friedrich M\u00fcller-Langenthal, who has the position of",
+                     "Asaph holds the title of",
+                     "George Bull is a",
+                     "Alban of Mainz is a",
+                     "Bartolomeo di Breganze's position is",
+                     "Friedrich M\u00fcller-Langenthal holds the position of",
+                     "Marius Aventicensis has the position of"
+              ],
+              "generation_prompts": [
+                     "Robert Bellarmine works as a",
+                     "Robert Bellarmine works as a",
+                     "Robert Bellarmine is known for",
+                     "Robert Bellarmine works as a",
+                     "Robert Bellarmine is known for",
+                     "Robert Bellarmine is known for",
+                     "Robert Bellarmine is known for",
+                     "Robert Bellarmine is known for",
+                     "Robert Bellarmine works as a",
+                     "Robert Bellarmine is known for"
+              ]
+       },
+       {
+              "case_id": 17,
+              "pararel_idx": 111,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "pope",
+                            "id": "Q19546"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "John E. Hines"
+              },
+              "paraphrase_prompts": [
+                     "First published 1966 by Rajasthan Archives. John E. Hines is a",
+                     "However, things don't turn out quite the way she planned. John E. Hines holds the title of"
+              ],
+              "neighborhood_prompts": [
+                     "Luigi Nazari di Calabiana's position is",
+                     "Marius Aventicensis holds the position of",
+                     "Friedrich M\u00fcller-Langenthal holds the position of",
+                     "Bartolomeo di Breganze, who holds the position of",
+                     "Luigi Nazari di Calabiana is a",
+                     "Lucifer of Cagliari has the position of",
+                     "Hugh Latimer holds the title of",
+                     "Edwin Morris has the position of",
+                     "Saint Martial is a",
+                     "Saint Martial, whose position is that of"
+              ],
+              "attribute_prompts": [
+                     "Innocent VIII's position is",
+                     "Clement XII holds the position of",
+                     "Benedict XIII is a",
+                     "Clement XII has the position of",
+                     "Honorius III holds the position of",
+                     "Innocent VIII, whose position is that of",
+                     "Adrian IV holds the title of",
+                     "Gregory X holds the title of",
+                     "Paul III holds the position of",
+                     "Clement IX holds the title of"
+              ],
+              "generation_prompts": [
+                     "John E. Hines is known for",
+                     "John E. Hines's greatest accomplishment is",
+                     "John E. Hines is known for",
+                     "John E. Hines's greatest accomplishment is",
+                     "John E. Hines works as a",
+                     "John E. Hines works as a",
+                     "John E. Hines is known for",
+                     "John E. Hines works as a",
+                     "John E. Hines works as a",
+                     "John E. Hines works as a"
+              ]
+       },
+       {
+              "case_id": 18,
+              "pararel_idx": 479,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "target_true": {
+                            "str": "cardinal",
+                            "id": "Q45722"
+                     },
+                     "subject": "Benedict XVI"
+              },
+              "paraphrase_prompts": [
+                     "McIvor remembered The Hindu June 9, 2015\n\nCategory:Scottish gardeners Benedict XVI has the position of",
+                     "EDAS is not a public educational institution. Benedict XVI's position is"
+              ],
+              "neighborhood_prompts": [
+                     "Gaspard Mermillod holds the position of",
+                     "Innocent X's position is",
+                     "Christoph Anton Migazzi holds the position of",
+                     "Boniface II, who holds the position of",
+                     "Melchior Klesl, whose position is that of",
+                     "Charles Journet, who has the position of",
+                     "Alexander VIII, whose position is that of",
+                     "Melchior Klesl, who has the position of",
+                     "Gregory II, who has the position of",
+                     "Johann Rudolf Kutschker is a"
+              ],
+              "attribute_prompts": [
+                     "George Bull is a",
+                     "Thomas Percy has the position of",
+                     "Saint Martial, who holds the position of",
+                     "Hugh Latimer is a",
+                     "Marius Aventicensis is a",
+                     "Thomas Percy, whose position is that of",
+                     "Asaph's position is",
+                     "Luke of Prague holds the title of",
+                     "Friedrich M\u00fcller-Langenthal holds the title of",
+                     "Alban of Mainz, who holds the position of"
+              ],
+              "generation_prompts": [
+                     "Benedict XVI's greatest accomplishment is",
+                     "Benedict XVI works as a",
+                     "Benedict XVI works as a",
+                     "Benedict XVI works as a",
+                     "Benedict XVI is known for",
+                     "Benedict XVI is known for",
+                     "Benedict XVI is known for",
+                     "Benedict XVI is known for",
+                     "Benedict XVI works as a",
+                     "Benedict XVI's greatest accomplishment is"
+              ]
+       },
+       {
+              "case_id": 19,
+              "pararel_idx": 393,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "target_true": {
+                            "str": "cardinal",
+                            "id": "Q45722"
+                     },
+                     "subject": "Ludovico Madruzzo"
+              },
+              "paraphrase_prompts": [
+                     "References\n\nCategory:Moons of Saturn\nCategory:Astronomical objects discovered in 2019 Ludovico Madruzzo has the position of",
+                     "The columella is slender, well\ncurved and slightly revolute. Ludovico Madruzzo, who has the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Hyacinthe Sigismond Gerdil holds the title of",
+                     "Alfons Maria Stickler has the position of",
+                     "Friedrich Gustav Piffl, who has the position of",
+                     "Gaspard Mermillod holds the title of",
+                     "Alessandro Peretti di Montalto's position is",
+                     "Johann Rudolf Kutschker, who has the position of",
+                     "Hyacinthe Sigismond Gerdil, whose position is that of",
+                     "Boniface II is a",
+                     "Theodor Innitzer holds the title of",
+                     "Gaspard Mermillod's position is"
+              ],
+              "attribute_prompts": [
+                     "Marius Aventicensis holds the title of",
+                     "Hugh Latimer, whose position is that of",
+                     "Asaph is a",
+                     "Friedrich M\u00fcller-Langenthal has the position of",
+                     "Henric Benzelius holds the title of",
+                     "Asaph holds the title of",
+                     "Henric Benzelius holds the position of",
+                     "Edwin Morris holds the position of",
+                     "Alban of Mainz, whose position is that of",
+                     "Friedrich M\u00fcller-Langenthal holds the position of"
+              ],
+              "generation_prompts": [
+                     "Ludovico Madruzzo's greatest accomplishment is",
+                     "Ludovico Madruzzo is known for",
+                     "Ludovico Madruzzo is known for",
+                     "Ludovico Madruzzo's greatest accomplishment is",
+                     "Ludovico Madruzzo is known for",
+                     "Ludovico Madruzzo is known for",
+                     "Ludovico Madruzzo works as a",
+                     "Ludovico Madruzzo is known for",
+                     "Ludovico Madruzzo is known for",
+                     "Ludovico Madruzzo's greatest accomplishment is"
+              ]
+       },
+       {
+              "case_id": 20,
+              "pararel_idx": 178,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "target_true": {
+                            "str": "cardinal",
+                            "id": "Q45722"
+                     },
+                     "subject": "Luigi Dadaglio"
+              },
+              "paraphrase_prompts": [
+                     "The city was founded on February 1, 1955. Luigi Dadaglio holds the title of",
+                     "The opening of large malls on the outskirts of towns. Luigi Dadaglio holds the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Hyacinthe Sigismond Gerdil is a",
+                     "Pius II, who has the position of",
+                     "Pius II holds the title of",
+                     "Alfons Maria Stickler, whose position is that of",
+                     "Giacomo Biffi is a",
+                     "Alessandro Peretti di Montalto holds the position of",
+                     "Clement VII holds the position of",
+                     "Johann Rudolf Kutschker holds the title of",
+                     "Innocent X, who holds the position of",
+                     "Giacomo Biffi's position is"
+              ],
+              "attribute_prompts": [
+                     "Thomas Percy holds the position of",
+                     "Henric Benzelius holds the title of",
+                     "John of Ephesus, whose position is that of",
+                     "Friedrich M\u00fcller-Langenthal holds the position of",
+                     "Johan Ernst Gunnerus, whose position is that of",
+                     "Saint Martial holds the title of",
+                     "George Bull holds the position of",
+                     "Friedrich M\u00fcller-Langenthal's position is",
+                     "John of Ephesus has the position of",
+                     "Lucifer of Cagliari's position is"
+              ],
+              "generation_prompts": [
+                     "Luigi Dadaglio is known for",
+                     "Luigi Dadaglio works as a",
+                     "Luigi Dadaglio is known for",
+                     "Luigi Dadaglio works as a",
+                     "Luigi Dadaglio is known for",
+                     "Luigi Dadaglio's greatest accomplishment is",
+                     "Luigi Dadaglio works as a",
+                     "Luigi Dadaglio is known for",
+                     "Luigi Dadaglio's greatest accomplishment is",
+                     "Luigi Dadaglio's greatest accomplishment is"
+              ]
+       },
+       {
+              "case_id": 21,
+              "pararel_idx": 8,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "pope",
+                            "id": "Q19546"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Georg von Kopp"
+              },
+              "paraphrase_prompts": [
+                     "Votes\n! Georg von Kopp's position is",
+                     "1946)\n Hal Willner, music producer (b. Georg von Kopp, who holds the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Johan Ernst Gunnerus has the position of",
+                     "Johan Ernst Gunnerus holds the position of",
+                     "Thomas Percy is a",
+                     "Possidius of Calama, who has the position of",
+                     "Luke of Prague, who holds the position of",
+                     "Lucifer of Cagliari holds the position of",
+                     "Alban of Mainz, whose position is that of",
+                     "Johan Ernst Gunnerus is a",
+                     "Henric Benzelius is a",
+                     "Friedrich M\u00fcller-Langenthal, whose position is that of"
+              ],
+              "attribute_prompts": [
+                     "Callixtus III has the position of",
+                     "Honorius III has the position of",
+                     "Nicholas V's position is",
+                     "Sixtus V, who holds the position of",
+                     "Boniface VIII has the position of",
+                     "Clement IX has the position of",
+                     "Gregory XV holds the title of",
+                     "Alexander III holds the title of",
+                     "Clement XIII, who has the position of",
+                     "Paul V is a"
+              ],
+              "generation_prompts": [
+                     "Georg von Kopp is known for",
+                     "Georg von Kopp's greatest accomplishment is",
+                     "Georg von Kopp's greatest accomplishment is",
+                     "Georg von Kopp works as a",
+                     "Georg von Kopp's greatest accomplishment is",
+                     "Georg von Kopp's greatest accomplishment is",
+                     "Georg von Kopp is known for",
+                     "Georg von Kopp is known for",
+                     "Georg von Kopp's greatest accomplishment is",
+                     "Georg von Kopp's greatest accomplishment is"
+              ]
+       },
+       {
+              "case_id": 22,
+              "pararel_idx": 78,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "target_true": {
+                            "str": "pope",
+                            "id": "Q19546"
+                     },
+                     "subject": "Dionysius"
+              },
+              "paraphrase_prompts": [
+                     "of Alexis Levitin, Van Nuys, California: Perivale Press, 1985. Dionysius's position is",
+                     "The road that goes to Hovden ends at the village. Dionysius holds the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Honorius III has the position of",
+                     "Urban V, who has the position of",
+                     "Adrian IV, who has the position of",
+                     "Clement IX holds the title of",
+                     "Pius IV is a",
+                     "Innocent VIII, whose position is that of",
+                     "Callixtus III holds the position of",
+                     "Sixtus V holds the title of",
+                     "Clement XIII holds the title of",
+                     "Paul V, whose position is that of"
+              ],
+              "attribute_prompts": [
+                     "Johan Ernst Gunnerus has the position of",
+                     "Lucifer of Cagliari is a",
+                     "Thomas Percy, who holds the position of",
+                     "Luigi Nazari di Calabiana's position is",
+                     "Marius Aventicensis holds the title of",
+                     "Possidius of Calama holds the position of",
+                     "Luigi Nazari di Calabiana has the position of",
+                     "Lucifer of Cagliari, who holds the position of",
+                     "George Bull's position is",
+                     "Paulinus II of Aquileia, who holds the position of"
+              ],
+              "generation_prompts": [
+                     "Dionysius's greatest accomplishment is",
+                     "Dionysius's greatest accomplishment is",
+                     "Dionysius works as a",
+                     "Dionysius works as a",
+                     "Dionysius works as a",
+                     "Dionysius is known for",
+                     "Dionysius works as a",
+                     "Dionysius's greatest accomplishment is",
+                     "Dionysius's greatest accomplishment is",
+                     "Dionysius's greatest accomplishment is"
+              ]
+       },
+       {
+              "case_id": 23,
+              "pararel_idx": 104,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "target_true": {
+                            "str": "pope",
+                            "id": "Q19546"
+                     },
+                     "subject": "Pius XI"
+              },
+              "paraphrase_prompts": [
+                     "All historical aspects of the system are considered. Pius XI, who has the position of",
+                     "Newberry College later re-joined the conference in the 1996\u201397 season. Pius XI holds the title of"
+              ],
+              "neighborhood_prompts": [
+                     "Urban V, who holds the position of",
+                     "Innocent XII holds the position of",
+                     "Nicholas V, who has the position of",
+                     "Honorius III holds the title of",
+                     "Alexander III, who holds the position of",
+                     "Gregory VII's position is",
+                     "Sixtus V's position is",
+                     "Pius IV, whose position is that of",
+                     "Boniface VIII, whose position is that of",
+                     "Urban V is a"
+              ],
+              "attribute_prompts": [
+                     "Alban of Mainz's position is",
+                     "Marius Aventicensis holds the position of",
+                     "Alban of Mainz has the position of",
+                     "John of Ephesus has the position of",
+                     "Edwin Morris holds the title of",
+                     "Marius Aventicensis's position is",
+                     "Asaph's position is",
+                     "Edwin Morris has the position of",
+                     "James Hannington is a",
+                     "James Hannington, who holds the position of"
+              ],
+              "generation_prompts": [
+                     "Pius XI works as a",
+                     "Pius XI works as a",
+                     "Pius XI's greatest accomplishment is",
+                     "Pius XI is known for",
+                     "Pius XI is known for",
+                     "Pius XI is known for",
+                     "Pius XI works as a",
+                     "Pius XI works as a",
+                     "Pius XI's greatest accomplishment is",
+                     "Pius XI is known for"
+              ]
+       },
+       {
+              "case_id": 24,
+              "pararel_idx": 322,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "cardinal",
+                            "id": "Q45722"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Katharine Jefferts Schori"
+              },
+              "paraphrase_prompts": [
+                     "CKOI-FM again became a standalone station. Katharine Jefferts Schori, who holds the position of",
+                     "The band broke up in 2005. Katharine Jefferts Schori is a"
+              ],
+              "neighborhood_prompts": [
+                     "Luigi Nazari di Calabiana's position is",
+                     "Friedrich M\u00fcller-Langenthal, whose position is that of",
+                     "Lucifer of Cagliari, who has the position of",
+                     "Saint Martial, who has the position of",
+                     "John of Ephesus holds the title of",
+                     "Clement's position is",
+                     "Lucifer of Cagliari, whose position is that of",
+                     "Saint Martial holds the title of",
+                     "John of Ephesus holds the position of",
+                     "Friedrich M\u00fcller-Langenthal, who holds the position of"
+              ],
+              "attribute_prompts": [
+                     "Friedrich Gustav Piffl, whose position is that of",
+                     "Theodor Innitzer, whose position is that of",
+                     "Hyacinthe Sigismond Gerdil, who holds the position of",
+                     "Johann Rudolf Kutschker, who holds the position of",
+                     "Christoph Anton Migazzi holds the position of",
+                     "Alfons Maria Stickler holds the title of",
+                     "Christoph Anton Migazzi, who holds the position of",
+                     "Hyacinthe Sigismond Gerdil, who has the position of",
+                     "Christoph Anton Migazzi's position is",
+                     "Christoph Anton Migazzi, whose position is that of"
+              ],
+              "generation_prompts": [
+                     "Katharine Jefferts Schori works as a",
+                     "Katharine Jefferts Schori's greatest accomplishment is",
+                     "Katharine Jefferts Schori works as a",
+                     "Katharine Jefferts Schori is known for",
+                     "Katharine Jefferts Schori's greatest accomplishment is",
+                     "Katharine Jefferts Schori's greatest accomplishment is",
+                     "Katharine Jefferts Schori is known for",
+                     "Katharine Jefferts Schori's greatest accomplishment is",
+                     "Katharine Jefferts Schori is known for",
+                     "Katharine Jefferts Schori's greatest accomplishment is"
+              ]
+       },
+       {
+              "case_id": 25,
+              "pararel_idx": 177,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "cardinal",
+                            "id": "Q45722"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Vigilius of Trent"
+              },
+              "paraphrase_prompts": [
+                     "His University faction is devoted to \"rational, scientific inquiry.\" Vigilius of Trent holds the title of",
+                     "I.e. Vigilius of Trent has the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Bartolomeo di Breganze, who has the position of",
+                     "Clement holds the title of",
+                     "Thomas Percy's position is",
+                     "Hugh Latimer holds the position of",
+                     "Marius Aventicensis's position is",
+                     "Clement holds the position of",
+                     "Luke of Prague's position is",
+                     "John of Ephesus holds the position of",
+                     "Thomas Percy holds the position of",
+                     "Hugh Latimer, who holds the position of"
+              ],
+              "attribute_prompts": [
+                     "Alfons Maria Stickler has the position of",
+                     "Clement VII is a",
+                     "Giovanni Bona holds the position of",
+                     "Boniface II is a",
+                     "Johann Rudolf Kutschker, whose position is that of",
+                     "Theodor Innitzer holds the title of",
+                     "Hyacinthe Sigismond Gerdil, who has the position of",
+                     "Pius II, who holds the position of",
+                     "Clement VII holds the title of",
+                     "Giovanni Bona has the position of"
+              ],
+              "generation_prompts": [
+                     "Vigilius of Trent works as a",
+                     "Vigilius of Trent is known for",
+                     "Vigilius of Trent works as a",
+                     "Vigilius of Trent works as a",
+                     "Vigilius of Trent works as a",
+                     "Vigilius of Trent works as a",
+                     "Vigilius of Trent's greatest accomplishment is",
+                     "Vigilius of Trent's greatest accomplishment is",
+                     "Vigilius of Trent is known for",
+                     "Vigilius of Trent works as a"
+              ]
+       },
+       {
+              "case_id": 26,
+              "pararel_idx": 150,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "patriarch",
+                            "id": "Q171692"
+                     },
+                     "target_true": {
+                            "str": "pope",
+                            "id": "Q19546"
+                     },
+                     "subject": "Leo X"
+              },
+              "paraphrase_prompts": [
+                     "White died in 1920. Leo X's position is",
+                     "Colonial Chesapeake Society (1991)\n Craven, Avery. Leo X, who has the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Innocent VIII is a",
+                     "Alexander III's position is",
+                     "Innocent VIII, whose position is that of",
+                     "Benedict XIII has the position of",
+                     "Nicholas V, whose position is that of",
+                     "Clement XII, whose position is that of",
+                     "Paul III, who has the position of",
+                     "Nicholas V is a",
+                     "Gregory XV holds the position of",
+                     "Honorius III's position is"
+              ],
+              "attribute_prompts": [
+                     "Ermolao Barbaro, whose position is that of",
+                     "Ermolao Barbaro's position is",
+                     "Sarah, whose position is that of",
+                     "Fazang holds the title of",
+                     "Jacques Jouvenel des Ursins holds the position of",
+                     "Peter Thomas has the position of",
+                     "Jacques Jouvenel des Ursins, who holds the position of",
+                     "John Scholasticus holds the position of",
+                     "Jacob has the position of",
+                     "Euthymius of Tarnovo, who has the position of"
+              ],
+              "generation_prompts": [
+                     "Leo X works as a",
+                     "Leo X is known for",
+                     "Leo X is known for",
+                     "Leo X's greatest accomplishment is",
+                     "Leo X is known for",
+                     "Leo X works as a",
+                     "Leo X is known for",
+                     "Leo X's greatest accomplishment is",
+                     "Leo X works as a",
+                     "Leo X works as a"
+              ]
+       },
+       {
+              "case_id": 27,
+              "pararel_idx": 124,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "cardinal",
+                            "id": "Q45722"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Corrado Bafile"
+              },
+              "paraphrase_prompts": [
+                     "Gameplay\nGameplay consists of choosing survivors' skills (fishing, cooking, etc. Corrado Bafile's position is",
+                     "References\n\naporostegus\nCategory:Endemic fauna of Haiti\nCategory:Amphibians of Haiti Corrado Bafile, who holds the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Paulinus II of Aquileia holds the position of",
+                     "Henric Benzelius is a",
+                     "John of Ephesus has the position of",
+                     "Lucifer of Cagliari, whose position is that of",
+                     "Paulinus II of Aquileia, whose position is that of",
+                     "Luigi Nazari di Calabiana has the position of",
+                     "Possidius of Calama, whose position is that of",
+                     "Paulinus II of Aquileia holds the title of",
+                     "Luke of Prague, who holds the position of",
+                     "Henric Benzelius holds the position of"
+              ],
+              "attribute_prompts": [
+                     "Pius II holds the title of",
+                     "Hyacinthe Sigismond Gerdil's position is",
+                     "Melchior Klesl's position is",
+                     "Christoph Anton Migazzi's position is",
+                     "Melchior Klesl, who holds the position of",
+                     "Giovanni Bona, who has the position of",
+                     "Giacomo Biffi holds the title of",
+                     "Melchior Klesl, who has the position of",
+                     "Pius II, who holds the position of",
+                     "Innocent X holds the position of"
+              ],
+              "generation_prompts": [
+                     "Corrado Bafile is known for",
+                     "Corrado Bafile is known for",
+                     "Corrado Bafile works as a",
+                     "Corrado Bafile is known for",
+                     "Corrado Bafile works as a",
+                     "Corrado Bafile's greatest accomplishment is",
+                     "Corrado Bafile's greatest accomplishment is",
+                     "Corrado Bafile's greatest accomplishment is",
+                     "Corrado Bafile's greatest accomplishment is",
+                     "Corrado Bafile's greatest accomplishment is"
+              ]
+       },
+       {
+              "case_id": 28,
+              "pararel_idx": 96,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "cardinal",
+                            "id": "Q45722"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Zeno of Verona"
+              },
+              "paraphrase_prompts": [
+                     "At maturity, the cones usually open to release the seeds. Zeno of Verona, who holds the position of",
+                     "Discuss.\" Zeno of Verona holds the title of"
+              ],
+              "neighborhood_prompts": [
+                     "Asaph holds the position of",
+                     "Saint Martial, who holds the position of",
+                     "Henric Benzelius holds the position of",
+                     "Johan Ernst Gunnerus, who holds the position of",
+                     "Paulinus II of Aquileia is a",
+                     "James Hannington is a",
+                     "Bartolomeo di Breganze, who has the position of",
+                     "Edwin Morris has the position of",
+                     "Friedrich M\u00fcller-Langenthal has the position of",
+                     "Clement, who has the position of"
+              ],
+              "attribute_prompts": [
+                     "Giovanni Bona holds the title of",
+                     "Friedrich Gustav Piffl has the position of",
+                     "Friedrich Gustav Piffl, whose position is that of",
+                     "Alfons Maria Stickler, whose position is that of",
+                     "Charles Journet, who has the position of",
+                     "Archduke Rudolf of Austria, who has the position of",
+                     "Alexander VIII's position is",
+                     "Alfons Maria Stickler holds the title of",
+                     "Melchior Klesl holds the position of",
+                     "Gregory II has the position of"
+              ],
+              "generation_prompts": [
+                     "Zeno of Verona's greatest accomplishment is",
+                     "Zeno of Verona works as a",
+                     "Zeno of Verona is known for",
+                     "Zeno of Verona's greatest accomplishment is",
+                     "Zeno of Verona is known for",
+                     "Zeno of Verona works as a",
+                     "Zeno of Verona works as a",
+                     "Zeno of Verona is known for",
+                     "Zeno of Verona's greatest accomplishment is",
+                     "Zeno of Verona is known for"
+              ]
+       },
+       {
+              "case_id": 29,
+              "pararel_idx": 206,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "pope",
+                            "id": "Q19546"
+                     },
+                     "target_true": {
+                            "str": "cardinal",
+                            "id": "Q45722"
+                     },
+                     "subject": "Georges Cottier"
+              },
+              "paraphrase_prompts": [
+                     "Pages are broadcast in an arbitrary order. Georges Cottier, who has the position of",
+                     "First Movement: The Quest\n\nThe novel begins in May 1988. Georges Cottier's position is"
+              ],
+              "neighborhood_prompts": [
+                     "Gregory II is a",
+                     "Boniface II, who has the position of",
+                     "Friedrich Gustav Piffl's position is",
+                     "Alexander VIII has the position of",
+                     "Theodor Innitzer has the position of",
+                     "Alessandro Peretti di Montalto, whose position is that of",
+                     "Giacomo Biffi, who has the position of",
+                     "Giacomo Biffi's position is",
+                     "Hyacinthe Sigismond Gerdil, whose position is that of",
+                     "Alfons Maria Stickler, who holds the position of"
+              ],
+              "attribute_prompts": [
+                     "Boniface VIII is a",
+                     "Urban V holds the position of",
+                     "Innocent VIII is a",
+                     "Callixtus III is a",
+                     "Innocent XII has the position of",
+                     "Alexander III's position is",
+                     "Nicholas V holds the title of",
+                     "Gregory X holds the title of",
+                     "Benedict XIII holds the position of",
+                     "Callixtus III, who has the position of"
+              ],
+              "generation_prompts": [
+                     "Georges Cottier's greatest accomplishment is",
+                     "Georges Cottier is known for",
+                     "Georges Cottier's greatest accomplishment is",
+                     "Georges Cottier works as a",
+                     "Georges Cottier is known for",
+                     "Georges Cottier is known for",
+                     "Georges Cottier is known for",
+                     "Georges Cottier works as a",
+                     "Georges Cottier is known for",
+                     "Georges Cottier's greatest accomplishment is"
+              ]
+       },
+       {
+              "case_id": 30,
+              "pararel_idx": 72,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "mayor",
+                            "id": "Q30185"
+                     },
+                     "target_true": {
+                            "str": "minister",
+                            "id": "Q83307"
+                     },
+                     "subject": "Antonio Maura"
+              },
+              "paraphrase_prompts": [
+                     "\"The words are issuing a warning to Chris,\" Peele said. Antonio Maura has the position of",
+                     "The breeding range is given below. Antonio Maura, who has the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Domingo de Cabarr\u00fas y Galabert's position is",
+                     "Ghia Nodia has the position of",
+                     "Camille Alliali's position is",
+                     "Charles Bauza Donwahi, whose position is that of",
+                     "Fr\u00e9d\u00e9ric Fran\u00e7ois Alain Ekra holds the title of",
+                     "Dagobert Banzio is a",
+                     "Hamid Grine, who has the position of",
+                     "Hamid Grine, whose position is that of",
+                     "Alfredo Mart\u00ednez y Garc\u00eda-Arg\u00fcelles has the position of",
+                     "Henri Maupoil, who has the position of"
+              ],
+              "attribute_prompts": [
+                     "Karl Str\u00f6lin's position is",
+                     "Johann Heinrich Burchard holds the title of",
+                     "Luitpold Steidle, who has the position of",
+                     "Georg Diederichs is a",
+                     "Rainer Offergeld's position is",
+                     "Sabine Verheyen is a",
+                     "Richard Wendler, whose position is that of",
+                     "Wilhelm Knabe is a",
+                     "Volker Hauff, who holds the position of",
+                     "Sabine Verheyen has the position of"
+              ],
+              "generation_prompts": [
+                     "Antonio Maura's greatest accomplishment is",
+                     "Antonio Maura is known for",
+                     "Antonio Maura's greatest accomplishment is",
+                     "Antonio Maura is known for",
+                     "Antonio Maura is known for",
+                     "Antonio Maura works as a",
+                     "Antonio Maura works as a",
+                     "Antonio Maura is known for",
+                     "Antonio Maura's greatest accomplishment is",
+                     "Antonio Maura's greatest accomplishment is"
+              ]
+       },
+       {
+              "case_id": 31,
+              "pararel_idx": 294,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "target_true": {
+                            "str": "Shah",
+                            "id": "Q184299"
+                     },
+                     "subject": "Mohammad Shah Qajar"
+              },
+              "paraphrase_prompts": [
+                     "This window is his first major independent work. Mohammad Shah Qajar holds the position of",
+                     "It hosts business events, cultural activities, and entertainment. Mohammad Shah Qajar has the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Ismail I has the position of",
+                     "Karim Khan's position is",
+                     "Darius III has the position of",
+                     "Safi of Safavi has the position of",
+                     "Mozaffar ad-Din Shah Qajar holds the position of",
+                     "Mozaffar ad-Din Shah Qajar, who has the position of",
+                     "Kavadh I holds the position of",
+                     "Ismail II's position is",
+                     "Reza Shah has the position of",
+                     "Sultan Husayn has the position of"
+              ],
+              "attribute_prompts": [
+                     "Paulinus II of Aquileia is a",
+                     "Friedrich M\u00fcller-Langenthal, who holds the position of",
+                     "Thomas Percy, who holds the position of",
+                     "Luigi Nazari di Calabiana, whose position is that of",
+                     "Thomas Percy, who has the position of",
+                     "Possidius of Calama, who holds the position of",
+                     "Marius Aventicensis, whose position is that of",
+                     "Marius Aventicensis holds the position of",
+                     "Hugh Latimer is a",
+                     "Edwin Morris has the position of"
+              ],
+              "generation_prompts": [
+                     "Mohammad Shah Qajar works as a",
+                     "Mohammad Shah Qajar works as a",
+                     "Mohammad Shah Qajar works as a",
+                     "Mohammad Shah Qajar's greatest accomplishment is",
+                     "Mohammad Shah Qajar works as a",
+                     "Mohammad Shah Qajar works as a",
+                     "Mohammad Shah Qajar is known for",
+                     "Mohammad Shah Qajar's greatest accomplishment is",
+                     "Mohammad Shah Qajar's greatest accomplishment is",
+                     "Mohammad Shah Qajar's greatest accomplishment is"
+              ]
+       },
+       {
+              "case_id": 32,
+              "pararel_idx": 92,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "mayor",
+                            "id": "Q30185"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Phillips Brooks"
+              },
+              "paraphrase_prompts": [
+                     "2 (1872) (unfinished)\n Franz Schubert: Impromptu, Op. Phillips Brooks is a",
+                     "Seiun Maru from the Ministry of Transport of Japan. Phillips Brooks's position is"
+              ],
+              "neighborhood_prompts": [
+                     "Luke of Prague, who holds the position of",
+                     "Asaph, who has the position of",
+                     "Lucifer of Cagliari holds the position of",
+                     "Alban of Mainz holds the title of",
+                     "Alban of Mainz's position is",
+                     "Paulinus II of Aquileia, who has the position of",
+                     "James Hannington has the position of",
+                     "Henric Benzelius has the position of",
+                     "Johan Ernst Gunnerus, who holds the position of",
+                     "Possidius of Calama is a"
+              ],
+              "attribute_prompts": [
+                     "Bartholom\u00e4us Scultetus holds the title of",
+                     "Hans Loch, who has the position of",
+                     "Karl Str\u00f6lin has the position of",
+                     "Arnulf Klett has the position of",
+                     "Jean Marie Rodolph Eickemayer's position is",
+                     "Sabine Verheyen holds the title of",
+                     "Sabine Verheyen is a",
+                     "Markus Welser holds the title of",
+                     "Norbert Geis is a",
+                     "Hans Loch is a"
+              ],
+              "generation_prompts": [
+                     "Phillips Brooks works as a",
+                     "Phillips Brooks is known for",
+                     "Phillips Brooks's greatest accomplishment is",
+                     "Phillips Brooks works as a",
+                     "Phillips Brooks works as a",
+                     "Phillips Brooks is known for",
+                     "Phillips Brooks works as a",
+                     "Phillips Brooks is known for",
+                     "Phillips Brooks works as a",
+                     "Phillips Brooks's greatest accomplishment is"
+              ]
+       },
+       {
+              "case_id": 33,
+              "pararel_idx": 166,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "pope",
+                            "id": "Q19546"
+                     },
+                     "target_true": {
+                            "str": "cardinal",
+                            "id": "Q45722"
+                     },
+                     "subject": "Pius VII"
+              },
+              "paraphrase_prompts": [
+                     "Handbook of the Flora and Fauna of South Australia. Pius VII holds the title of",
+                     "Vermont Railway\n 2 SD70M-2 units, No. Pius VII, who has the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Hyacinthe Sigismond Gerdil's position is",
+                     "Archduke Rudolf of Austria, who has the position of",
+                     "Boniface II, whose position is that of",
+                     "Melchior Klesl holds the position of",
+                     "Christoph Anton Migazzi, who holds the position of",
+                     "Clement VII, who has the position of",
+                     "Alexander VIII, whose position is that of",
+                     "Giacomo Biffi is a",
+                     "Friedrich Gustav Piffl has the position of",
+                     "Alessandro Peretti di Montalto's position is"
+              ],
+              "attribute_prompts": [
+                     "Boniface VIII, who has the position of",
+                     "Boniface VIII holds the title of",
+                     "Callixtus III holds the title of",
+                     "Adrian IV's position is",
+                     "Paul V is a",
+                     "Gregory XV holds the title of",
+                     "Boniface VIII's position is",
+                     "Gregory VII's position is",
+                     "Callixtus III, whose position is that of",
+                     "Pius IV has the position of"
+              ],
+              "generation_prompts": [
+                     "Pius VII works as a",
+                     "Pius VII is known for",
+                     "Pius VII is known for",
+                     "Pius VII works as a",
+                     "Pius VII works as a",
+                     "Pius VII is known for",
+                     "Pius VII works as a",
+                     "Pius VII works as a",
+                     "Pius VII works as a",
+                     "Pius VII's greatest accomplishment is"
+              ]
+       },
+       {
+              "case_id": 34,
+              "pararel_idx": 443,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "pope",
+                            "id": "Q19546"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Thomas Langdon Grace"
+              },
+              "paraphrase_prompts": [
+                     "See also \n Interleukin 1\n\nReferences\n\nFurther reading\n\nExternal links \n \n\nCategory:Interleukins Thomas Langdon Grace holds the position of",
+                     "Felt throughout western Hungary. Thomas Langdon Grace, who has the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Clement's position is",
+                     "Henric Benzelius is a",
+                     "Edwin Morris holds the position of",
+                     "Lucifer of Cagliari holds the position of",
+                     "George Bull's position is",
+                     "Asaph has the position of",
+                     "Thomas Percy has the position of",
+                     "Thomas Percy, who has the position of",
+                     "Marius Aventicensis holds the title of",
+                     "George Bull, who holds the position of"
+              ],
+              "attribute_prompts": [
+                     "Sixtus V, who holds the position of",
+                     "Benedict XIII has the position of",
+                     "Boniface VIII's position is",
+                     "Urban V's position is",
+                     "Boniface VIII, whose position is that of",
+                     "Alexander III has the position of",
+                     "Benedict XIII, who has the position of",
+                     "Paul V has the position of",
+                     "Callixtus III holds the position of",
+                     "Clement IX is a"
+              ],
+              "generation_prompts": [
+                     "Thomas Langdon Grace is known for",
+                     "Thomas Langdon Grace's greatest accomplishment is",
+                     "Thomas Langdon Grace is known for",
+                     "Thomas Langdon Grace is known for",
+                     "Thomas Langdon Grace is known for",
+                     "Thomas Langdon Grace's greatest accomplishment is",
+                     "Thomas Langdon Grace's greatest accomplishment is",
+                     "Thomas Langdon Grace is known for",
+                     "Thomas Langdon Grace's greatest accomplishment is",
+                     "Thomas Langdon Grace is known for"
+              ]
+       },
+       {
+              "case_id": 35,
+              "pararel_idx": 56,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "pope",
+                            "id": "Q19546"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Walter Skirlaw"
+              },
+              "paraphrase_prompts": [
+                     "The title release was announced on June 28, 2001. Walter Skirlaw, who has the position of",
+                     "It is found in Brazil. Walter Skirlaw holds the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Paulinus II of Aquileia holds the title of",
+                     "Clement holds the position of",
+                     "James Hannington holds the title of",
+                     "Alban of Mainz, whose position is that of",
+                     "Friedrich M\u00fcller-Langenthal, who has the position of",
+                     "Clement holds the title of",
+                     "Hugh Latimer holds the position of",
+                     "James Hannington holds the position of",
+                     "Hugh Latimer has the position of",
+                     "Edwin Morris, who holds the position of"
+              ],
+              "attribute_prompts": [
+                     "Urban V, who has the position of",
+                     "Honorius III is a",
+                     "Callixtus III is a",
+                     "Gregory XV has the position of",
+                     "Gregory VII, whose position is that of",
+                     "Benedict XIII has the position of",
+                     "Gregory X, who holds the position of",
+                     "Gregory X, whose position is that of",
+                     "Gregory XV is a",
+                     "Paul III holds the title of"
+              ],
+              "generation_prompts": [
+                     "Walter Skirlaw works as a",
+                     "Walter Skirlaw works as a",
+                     "Walter Skirlaw works as a",
+                     "Walter Skirlaw works as a",
+                     "Walter Skirlaw works as a",
+                     "Walter Skirlaw works as a",
+                     "Walter Skirlaw's greatest accomplishment is",
+                     "Walter Skirlaw's greatest accomplishment is",
+                     "Walter Skirlaw's greatest accomplishment is",
+                     "Walter Skirlaw is known for"
+              ]
+       },
+       {
+              "case_id": 36,
+              "pararel_idx": 270,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "pope",
+                            "id": "Q19546"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Peter Amigo"
+              },
+              "paraphrase_prompts": [
+                     "Children's Mathematics, Second Edition: Cognitively Guided Instruction. Peter Amigo, who has the position of",
+                     "set of subjects). Peter Amigo holds the title of"
+              ],
+              "neighborhood_prompts": [
+                     "Paulinus II of Aquileia, whose position is that of",
+                     "George Bull, who holds the position of",
+                     "Marius Aventicensis, who has the position of",
+                     "Marius Aventicensis, whose position is that of",
+                     "Alban of Mainz, who has the position of",
+                     "Saint Martial is a",
+                     "Asaph holds the title of",
+                     "Henric Benzelius, whose position is that of",
+                     "Thomas Percy, who has the position of",
+                     "Lucifer of Cagliari, who has the position of"
+              ],
+              "attribute_prompts": [
+                     "Paul V's position is",
+                     "Alexander III holds the position of",
+                     "Nicholas V holds the position of",
+                     "Adrian IV holds the position of",
+                     "Boniface VIII, who holds the position of",
+                     "Paul III has the position of",
+                     "Benedict XIII, whose position is that of",
+                     "Gregory XV's position is",
+                     "Nicholas V holds the title of",
+                     "Alexander III, who holds the position of"
+              ],
+              "generation_prompts": [
+                     "Peter Amigo is known for",
+                     "Peter Amigo works as a",
+                     "Peter Amigo's greatest accomplishment is",
+                     "Peter Amigo is known for",
+                     "Peter Amigo works as a",
+                     "Peter Amigo's greatest accomplishment is",
+                     "Peter Amigo works as a",
+                     "Peter Amigo works as a",
+                     "Peter Amigo is known for",
+                     "Peter Amigo works as a"
+              ]
+       },
+       {
+              "case_id": 37,
+              "pararel_idx": 345,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "cardinal",
+                            "id": "Q45722"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Colman mac Duagh"
+              },
+              "paraphrase_prompts": [
+                     ":\nM\u2019 d\u00e1ba. Colman mac Duagh's position is",
+                     "It was given a status of \"Data deficient\". Colman mac Duagh, who has the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Luigi Nazari di Calabiana, who holds the position of",
+                     "Johan Ernst Gunnerus holds the title of",
+                     "George Bull has the position of",
+                     "George Bull is a",
+                     "Marius Aventicensis holds the position of",
+                     "George Bull, who has the position of",
+                     "Johan Ernst Gunnerus is a",
+                     "Johan Ernst Gunnerus, whose position is that of",
+                     "Luigi Nazari di Calabiana holds the title of",
+                     "Paulinus II of Aquileia holds the position of"
+              ],
+              "attribute_prompts": [
+                     "Gregory II holds the title of",
+                     "Theodor Innitzer, who holds the position of",
+                     "Giacomo Biffi, who holds the position of",
+                     "Gregory XIII has the position of",
+                     "Theodor Innitzer's position is",
+                     "Pius II's position is",
+                     "Johann Rudolf Kutschker is a",
+                     "Alexander VIII, who holds the position of",
+                     "Gaspard Mermillod's position is",
+                     "Giovanni Bona's position is"
+              ],
+              "generation_prompts": [
+                     "Colman mac Duagh's greatest accomplishment is",
+                     "Colman mac Duagh is known for",
+                     "Colman mac Duagh is known for",
+                     "Colman mac Duagh's greatest accomplishment is",
+                     "Colman mac Duagh is known for",
+                     "Colman mac Duagh's greatest accomplishment is",
+                     "Colman mac Duagh works as a",
+                     "Colman mac Duagh is known for",
+                     "Colman mac Duagh's greatest accomplishment is",
+                     "Colman mac Duagh is known for"
+              ]
+       },
+       {
+              "case_id": 38,
+              "pararel_idx": 370,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "cardinal",
+                            "id": "Q45722"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Fausto Veranzio"
+              },
+              "paraphrase_prompts": [
+                     "It was sent to Germany to augment NATO forces there. Fausto Veranzio is a",
+                     "and the five other Hoest comics then in production. Fausto Veranzio's position is"
+              ],
+              "neighborhood_prompts": [
+                     "Marius Aventicensis holds the position of",
+                     "Asaph holds the position of",
+                     "Hugh Latimer, who holds the position of",
+                     "Asaph, whose position is that of",
+                     "Paulinus II of Aquileia holds the title of",
+                     "Asaph, who holds the position of",
+                     "Paulinus II of Aquileia holds the position of",
+                     "Hugh Latimer, whose position is that of",
+                     "John of Ephesus is a",
+                     "Clement is a"
+              ],
+              "attribute_prompts": [
+                     "Theodor Innitzer is a",
+                     "Alfons Maria Stickler, who holds the position of",
+                     "Friedrich Gustav Piffl, who holds the position of",
+                     "Alfons Maria Stickler is a",
+                     "Giacomo Biffi's position is",
+                     "Giacomo Biffi, whose position is that of",
+                     "Hyacinthe Sigismond Gerdil holds the position of",
+                     "Gaspard Mermillod holds the position of",
+                     "Gaspard Mermillod, who has the position of",
+                     "Theodor Innitzer has the position of"
+              ],
+              "generation_prompts": [
+                     "Fausto Veranzio is known for",
+                     "Fausto Veranzio works as a",
+                     "Fausto Veranzio's greatest accomplishment is",
+                     "Fausto Veranzio works as a",
+                     "Fausto Veranzio is known for",
+                     "Fausto Veranzio is known for",
+                     "Fausto Veranzio works as a",
+                     "Fausto Veranzio is known for",
+                     "Fausto Veranzio is known for",
+                     "Fausto Veranzio works as a"
+              ]
+       },
+       {
+              "case_id": 39,
+              "pararel_idx": 128,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "mayor",
+                            "id": "Q30185"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Dermot Clifford"
+              },
+              "paraphrase_prompts": [
+                     "Cornelissen, C.A. Dermot Clifford, who holds the position of",
+                     "Wright and Taylor, Inc., built the two-story commercial space. Dermot Clifford's position is"
+              ],
+              "neighborhood_prompts": [
+                     "Alban of Mainz holds the title of",
+                     "Luigi Nazari di Calabiana's position is",
+                     "Clement has the position of",
+                     "Clement's position is",
+                     "Clement, whose position is that of",
+                     "Paulinus II of Aquileia holds the position of",
+                     "Henric Benzelius holds the position of",
+                     "Hugh Latimer has the position of",
+                     "Johan Ernst Gunnerus, who holds the position of",
+                     "Marius Aventicensis, who holds the position of"
+              ],
+              "attribute_prompts": [
+                     "Norbert Geis, who has the position of",
+                     "Paul Kr\u00fcger's position is",
+                     "Karl Str\u00f6lin holds the position of",
+                     "Leopold Kaufmann has the position of",
+                     "Paul Kr\u00fcger holds the title of",
+                     "Jean Marie Rodolph Eickemayer, who has the position of",
+                     "Julius Lippert holds the position of",
+                     "Hans Loch has the position of",
+                     "Volker Hauff, who holds the position of",
+                     "Leopold Kaufmann, who holds the position of"
+              ],
+              "generation_prompts": [
+                     "Dermot Clifford works as a",
+                     "Dermot Clifford is known for",
+                     "Dermot Clifford is known for",
+                     "Dermot Clifford works as a",
+                     "Dermot Clifford works as a",
+                     "Dermot Clifford is known for",
+                     "Dermot Clifford's greatest accomplishment is",
+                     "Dermot Clifford's greatest accomplishment is",
+                     "Dermot Clifford is known for",
+                     "Dermot Clifford is known for"
+              ]
+       },
+       {
+              "case_id": 40,
+              "pararel_idx": 197,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "target_true": {
+                            "str": "pope",
+                            "id": "Q19546"
+                     },
+                     "subject": "Siricius"
+              },
+              "paraphrase_prompts": [
+                     "), DLT/Baker Books, 2000. Siricius has the position of",
+                     "Jor-El briefly appears in the 2015 pilot episode of Supergirl. Siricius's position is"
+              ],
+              "neighborhood_prompts": [
+                     "Gregory X holds the position of",
+                     "Paul V, whose position is that of",
+                     "Adrian IV, who holds the position of",
+                     "Adrian IV holds the title of",
+                     "Clement XIII is a",
+                     "Paul V is a",
+                     "Adrian IV, who has the position of",
+                     "Benedict XIII has the position of",
+                     "Adrian IV holds the position of",
+                     "Benedict XIII's position is"
+              ],
+              "attribute_prompts": [
+                     "Bartolomeo di Breganze, who holds the position of",
+                     "Paulinus II of Aquileia, who has the position of",
+                     "Paulinus II of Aquileia's position is",
+                     "Johan Ernst Gunnerus has the position of",
+                     "Clement holds the title of",
+                     "Johan Ernst Gunnerus, who holds the position of",
+                     "Johan Ernst Gunnerus, who has the position of",
+                     "Thomas Percy holds the title of",
+                     "Luigi Nazari di Calabiana, who has the position of",
+                     "Luke of Prague holds the position of"
+              ],
+              "generation_prompts": [
+                     "Siricius's greatest accomplishment is",
+                     "Siricius's greatest accomplishment is",
+                     "Siricius works as a",
+                     "Siricius's greatest accomplishment is",
+                     "Siricius works as a",
+                     "Siricius's greatest accomplishment is",
+                     "Siricius is known for",
+                     "Siricius's greatest accomplishment is",
+                     "Siricius's greatest accomplishment is",
+                     "Siricius works as a"
+              ]
+       },
+       {
+              "case_id": 41,
+              "pararel_idx": 100,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "councillor",
+                            "id": "Q708492"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Cornelius Jansen"
+              },
+              "paraphrase_prompts": [
+                     "The sound  is slightly aspirated . Cornelius Jansen has the position of",
+                     "The name is literally translated from Latvian as forest village. Cornelius Jansen holds the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Asaph, who holds the position of",
+                     "Paulinus II of Aquileia holds the title of",
+                     "Lucifer of Cagliari has the position of",
+                     "Clement holds the position of",
+                     "Lucifer of Cagliari, who holds the position of",
+                     "Clement is a",
+                     "Henric Benzelius has the position of",
+                     "Friedrich M\u00fcller-Langenthal, who has the position of",
+                     "Thomas Percy, who holds the position of",
+                     "Hugh Latimer holds the position of"
+              ],
+              "attribute_prompts": [
+                     "Cory Booker holds the title of",
+                     "Jakob Bording holds the position of",
+                     "Don Young's position is",
+                     "Ken Lucas is a",
+                     "Johann Erasmus Senckenberg, who holds the position of",
+                     "William J. Martini, whose position is that of",
+                     "Daniel Haecks holds the position of",
+                     "Dietrich von Broemse has the position of",
+                     "Jakob Bording is a",
+                     "Don Young, whose position is that of"
+              ],
+              "generation_prompts": [
+                     "Cornelius Jansen works as a",
+                     "Cornelius Jansen's greatest accomplishment is",
+                     "Cornelius Jansen is known for",
+                     "Cornelius Jansen is known for",
+                     "Cornelius Jansen works as a",
+                     "Cornelius Jansen is known for",
+                     "Cornelius Jansen's greatest accomplishment is",
+                     "Cornelius Jansen is known for",
+                     "Cornelius Jansen works as a",
+                     "Cornelius Jansen's greatest accomplishment is"
+              ]
+       },
+       {
+              "case_id": 42,
+              "pararel_idx": 401,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "cardinal",
+                            "id": "Q45722"
+                     },
+                     "target_true": {
+                            "str": "pope",
+                            "id": "Q19546"
+                     },
+                     "subject": "Innocent XII"
+              },
+              "paraphrase_prompts": [
+                     "(2012). Innocent XII has the position of",
+                     "The SGO is composed of students from all years. Innocent XII, who holds the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Callixtus III holds the title of",
+                     "Pius IV, who holds the position of",
+                     "Urban V is a",
+                     "Adrian IV is a",
+                     "Sixtus V's position is",
+                     "Gregory X, who has the position of",
+                     "Gregory X holds the title of",
+                     "Honorius III holds the position of",
+                     "Adrian IV, whose position is that of",
+                     "Clement XII, who has the position of"
+              ],
+              "attribute_prompts": [
+                     "Melchior Klesl holds the title of",
+                     "Johann Rudolf Kutschker, whose position is that of",
+                     "Archduke Rudolf of Austria, whose position is that of",
+                     "Hyacinthe Sigismond Gerdil holds the position of",
+                     "Giovanni Bona has the position of",
+                     "Friedrich Gustav Piffl holds the position of",
+                     "Friedrich Gustav Piffl holds the title of",
+                     "Gregory XIII, who holds the position of",
+                     "Archduke Rudolf of Austria holds the position of",
+                     "Archduke Rudolf of Austria is a"
+              ],
+              "generation_prompts": [
+                     "Innocent XII's greatest accomplishment is",
+                     "Innocent XII is known for",
+                     "Innocent XII works as a",
+                     "Innocent XII's greatest accomplishment is",
+                     "Innocent XII is known for",
+                     "Innocent XII works as a",
+                     "Innocent XII works as a",
+                     "Innocent XII is known for",
+                     "Innocent XII works as a",
+                     "Innocent XII's greatest accomplishment is"
+              ]
+       },
+       {
+              "case_id": 43,
+              "pararel_idx": 136,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "pope",
+                            "id": "Q19546"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Gerard Sagredo"
+              },
+              "paraphrase_prompts": [
+                     "The New Zealand Fencible Society (Inc), 1997. Gerard Sagredo, who has the position of",
+                     "He appeared in 67 films between 1911 and 1937. Gerard Sagredo has the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Alban of Mainz, who has the position of",
+                     "Paulinus II of Aquileia, who has the position of",
+                     "George Bull is a",
+                     "Henric Benzelius holds the title of",
+                     "Possidius of Calama holds the position of",
+                     "James Hannington is a",
+                     "Asaph has the position of",
+                     "Saint Martial's position is",
+                     "Friedrich M\u00fcller-Langenthal, whose position is that of",
+                     "James Hannington has the position of"
+              ],
+              "attribute_prompts": [
+                     "Urban V, who has the position of",
+                     "Gregory XV has the position of",
+                     "Paul III has the position of",
+                     "Callixtus III has the position of",
+                     "Innocent VIII has the position of",
+                     "Clement IX, who holds the position of",
+                     "Nicholas V is a",
+                     "Boniface VIII has the position of",
+                     "Clement XII has the position of",
+                     "Benedict XIII holds the position of"
+              ],
+              "generation_prompts": [
+                     "Gerard Sagredo's greatest accomplishment is",
+                     "Gerard Sagredo is known for",
+                     "Gerard Sagredo works as a",
+                     "Gerard Sagredo works as a",
+                     "Gerard Sagredo works as a",
+                     "Gerard Sagredo's greatest accomplishment is",
+                     "Gerard Sagredo's greatest accomplishment is",
+                     "Gerard Sagredo is known for",
+                     "Gerard Sagredo is known for",
+                     "Gerard Sagredo's greatest accomplishment is"
+              ]
+       },
+       {
+              "case_id": 44,
+              "pararel_idx": 461,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "cardinal",
+                            "id": "Q45722"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Hydatius"
+              },
+              "paraphrase_prompts": [
+                     "Clarence J. Hydatius holds the position of",
+                     "Le Monde, for instance, called it a \"sick film\". Hydatius is a"
+              ],
+              "neighborhood_prompts": [
+                     "Thomas Percy's position is",
+                     "Hugh Latimer, who has the position of",
+                     "Clement holds the position of",
+                     "Saint Martial's position is",
+                     "Edwin Morris, whose position is that of",
+                     "Edwin Morris holds the position of",
+                     "Hugh Latimer's position is",
+                     "Saint Martial, whose position is that of",
+                     "Friedrich M\u00fcller-Langenthal holds the title of",
+                     "Bartolomeo di Breganze has the position of"
+              ],
+              "attribute_prompts": [
+                     "Friedrich Gustav Piffl has the position of",
+                     "Boniface II holds the title of",
+                     "Gregory II is a",
+                     "Gregory II's position is",
+                     "Hyacinthe Sigismond Gerdil's position is",
+                     "Alfons Maria Stickler's position is",
+                     "Gregory XIII, whose position is that of",
+                     "Gaspard Mermillod holds the position of",
+                     "Giovanni Bona has the position of",
+                     "Charles Journet, whose position is that of"
+              ],
+              "generation_prompts": [
+                     "Hydatius's greatest accomplishment is",
+                     "Hydatius is known for",
+                     "Hydatius's greatest accomplishment is",
+                     "Hydatius's greatest accomplishment is",
+                     "Hydatius works as a",
+                     "Hydatius is known for",
+                     "Hydatius's greatest accomplishment is",
+                     "Hydatius is known for",
+                     "Hydatius works as a",
+                     "Hydatius works as a"
+              ]
+       },
+       {
+              "case_id": 45,
+              "pararel_idx": 138,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "target_true": {
+                            "str": "pope",
+                            "id": "Q19546"
+                     },
+                     "subject": "Pius VI"
+              },
+              "paraphrase_prompts": [
+                     "Sven Sandstr\u00f6m, Konsten i Sverige, Norstedts, Part 1, 1997, pgs. Pius VI holds the position of",
+                     "\u25aa Postal transaction office (PTO) network: 975 PTOs. Pius VI has the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Honorius III holds the position of",
+                     "Innocent VIII, who has the position of",
+                     "Innocent XII's position is",
+                     "Nicholas V, who has the position of",
+                     "Gregory X is a",
+                     "Clement XIII holds the title of",
+                     "Innocent XII, whose position is that of",
+                     "Benedict XIII, who holds the position of",
+                     "Gregory VII has the position of",
+                     "Paul III is a"
+              ],
+              "attribute_prompts": [
+                     "George Bull has the position of",
+                     "Henric Benzelius has the position of",
+                     "Possidius of Calama, who holds the position of",
+                     "Luigi Nazari di Calabiana holds the position of",
+                     "Possidius of Calama holds the position of",
+                     "Luke of Prague, whose position is that of",
+                     "Alban of Mainz, who has the position of",
+                     "Alban of Mainz, whose position is that of",
+                     "Edwin Morris has the position of",
+                     "Saint Martial is a"
+              ],
+              "generation_prompts": [
+                     "Pius VI is known for",
+                     "Pius VI's greatest accomplishment is",
+                     "Pius VI is known for",
+                     "Pius VI works as a",
+                     "Pius VI's greatest accomplishment is",
+                     "Pius VI's greatest accomplishment is",
+                     "Pius VI works as a",
+                     "Pius VI works as a",
+                     "Pius VI works as a",
+                     "Pius VI works as a"
+              ]
+       },
+       {
+              "case_id": 46,
+              "pararel_idx": 28,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "pope",
+                            "id": "Q19546"
+                     },
+                     "target_true": {
+                            "str": "cardinal",
+                            "id": "Q45722"
+                     },
+                     "subject": "Domenico Ferrata"
+              },
+              "paraphrase_prompts": [
+                     "All songs except for \".38\" appeared on future re-releases. Domenico Ferrata, who holds the position of",
+                     "Feature film. Domenico Ferrata holds the title of"
+              ],
+              "neighborhood_prompts": [
+                     "Pius II has the position of",
+                     "Archduke Rudolf of Austria holds the title of",
+                     "Johann Rudolf Kutschker's position is",
+                     "Theodor Innitzer, who holds the position of",
+                     "Melchior Klesl is a",
+                     "Boniface II, whose position is that of",
+                     "Clement VII holds the title of",
+                     "Christoph Anton Migazzi holds the position of",
+                     "Pius II is a",
+                     "Johann Rudolf Kutschker has the position of"
+              ],
+              "attribute_prompts": [
+                     "Urban V, who holds the position of",
+                     "Innocent VIII holds the position of",
+                     "Alexander III, whose position is that of",
+                     "Clement IX holds the title of",
+                     "Paul V has the position of",
+                     "Honorius III, whose position is that of",
+                     "Pius IV has the position of",
+                     "Adrian IV's position is",
+                     "Adrian IV holds the title of",
+                     "Honorius III, who has the position of"
+              ],
+              "generation_prompts": [
+                     "Domenico Ferrata works as a",
+                     "Domenico Ferrata's greatest accomplishment is",
+                     "Domenico Ferrata is known for",
+                     "Domenico Ferrata is known for",
+                     "Domenico Ferrata's greatest accomplishment is",
+                     "Domenico Ferrata's greatest accomplishment is",
+                     "Domenico Ferrata's greatest accomplishment is",
+                     "Domenico Ferrata's greatest accomplishment is",
+                     "Domenico Ferrata is known for",
+                     "Domenico Ferrata works as a"
+              ]
+       },
+       {
+              "case_id": 47,
+              "pararel_idx": 413,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "mayor",
+                            "id": "Q30185"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Basil of Caesarea"
+              },
+              "paraphrase_prompts": [
+                     "The Armenians, Copts, Jacobites, Nestorians and Maronites had greater autonomy. Basil of Caesarea holds the title of",
+                     "The wingspan is 15\u201316\u00a0mm. Basil of Caesarea, who has the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Luigi Nazari di Calabiana, who has the position of",
+                     "Bartolomeo di Breganze has the position of",
+                     "Lucifer of Cagliari has the position of",
+                     "Thomas Percy holds the position of",
+                     "Alban of Mainz is a",
+                     "Lucifer of Cagliari, whose position is that of",
+                     "Alban of Mainz's position is",
+                     "Edwin Morris has the position of",
+                     "Edwin Morris, whose position is that of",
+                     "Henric Benzelius, whose position is that of"
+              ],
+              "attribute_prompts": [
+                     "Volker Hauff has the position of",
+                     "Volker Hauff holds the title of",
+                     "Leopold Kaufmann holds the title of",
+                     "Arnulf Klett, whose position is that of",
+                     "Georg Diederichs's position is",
+                     "Rainer Offergeld holds the position of",
+                     "Julius Lippert, who holds the position of",
+                     "Sabine Verheyen's position is",
+                     "Jean Marie Rodolph Eickemayer, who holds the position of",
+                     "Julius Lippert has the position of"
+              ],
+              "generation_prompts": [
+                     "Basil of Caesarea works as a",
+                     "Basil of Caesarea works as a",
+                     "Basil of Caesarea is known for",
+                     "Basil of Caesarea is known for",
+                     "Basil of Caesarea works as a",
+                     "Basil of Caesarea's greatest accomplishment is",
+                     "Basil of Caesarea's greatest accomplishment is",
+                     "Basil of Caesarea is known for",
+                     "Basil of Caesarea works as a",
+                     "Basil of Caesarea is known for"
+              ]
+       },
+       {
+              "case_id": 48,
+              "pararel_idx": 7,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "cardinal",
+                            "id": "Q45722"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Pius VII"
+              },
+              "paraphrase_prompts": [
+                     "References\n\nCategory:Eubranchidae\nCategory:Gastropods described in 1987 Pius VII is a",
+                     "the English seven-teen). Pius VII holds the title of"
+              ],
+              "neighborhood_prompts": [
+                     "John of Ephesus, whose position is that of",
+                     "Lucifer of Cagliari, who holds the position of",
+                     "Clement is a",
+                     "Friedrich M\u00fcller-Langenthal holds the title of",
+                     "James Hannington, who has the position of",
+                     "Asaph holds the position of",
+                     "Possidius of Calama holds the position of",
+                     "Thomas Percy holds the title of",
+                     "Possidius of Calama is a",
+                     "Luigi Nazari di Calabiana, who has the position of"
+              ],
+              "attribute_prompts": [
+                     "Gaspard Mermillod, who has the position of",
+                     "Alessandro Peretti di Montalto has the position of",
+                     "Theodor Innitzer has the position of",
+                     "Innocent X, who has the position of",
+                     "Alessandro Peretti di Montalto, who holds the position of",
+                     "Innocent X holds the position of",
+                     "Alexander VIII's position is",
+                     "Theodor Innitzer, who holds the position of",
+                     "Innocent X has the position of",
+                     "Giovanni Bona has the position of"
+              ],
+              "generation_prompts": [
+                     "Pius VII works as a",
+                     "Pius VII's greatest accomplishment is",
+                     "Pius VII's greatest accomplishment is",
+                     "Pius VII's greatest accomplishment is",
+                     "Pius VII is known for",
+                     "Pius VII is known for",
+                     "Pius VII's greatest accomplishment is",
+                     "Pius VII is known for",
+                     "Pius VII works as a",
+                     "Pius VII's greatest accomplishment is"
+              ]
+       },
+       {
+              "case_id": 49,
+              "pararel_idx": 214,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "target_true": {
+                            "str": "pope",
+                            "id": "Q19546"
+                     },
+                     "subject": "Pelagius I"
+              },
+              "paraphrase_prompts": [
+                     "1938)\n  2007   \u2013 Bowie Kuhn, American lawyer and businessman (b. Pelagius I holds the position of",
+                     "The resemblance to the cut-throat finch is unmistakable. Pelagius I, who has the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Paul III holds the position of",
+                     "Innocent XII's position is",
+                     "Innocent VIII has the position of",
+                     "Callixtus III, who has the position of",
+                     "Gregory VII, who holds the position of",
+                     "Benedict XIII, who holds the position of",
+                     "Clement XIII has the position of",
+                     "Callixtus III is a",
+                     "Callixtus III, who holds the position of",
+                     "Paul V has the position of"
+              ],
+              "attribute_prompts": [
+                     "Saint Martial, whose position is that of",
+                     "Paulinus II of Aquileia, whose position is that of",
+                     "John of Ephesus holds the title of",
+                     "Luigi Nazari di Calabiana holds the position of",
+                     "Edwin Morris, whose position is that of",
+                     "Johan Ernst Gunnerus has the position of",
+                     "Possidius of Calama holds the position of",
+                     "Asaph holds the title of",
+                     "James Hannington, who has the position of",
+                     "Saint Martial holds the title of"
+              ],
+              "generation_prompts": [
+                     "Pelagius I works as a",
+                     "Pelagius I is known for",
+                     "Pelagius I works as a",
+                     "Pelagius I is known for",
+                     "Pelagius I is known for",
+                     "Pelagius I is known for",
+                     "Pelagius I works as a",
+                     "Pelagius I is known for",
+                     "Pelagius I is known for",
+                     "Pelagius I is known for"
+              ]
+       },
+       {
+              "case_id": 50,
+              "pararel_idx": 483,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "target_true": {
+                            "str": "pope",
+                            "id": "Q19546"
+                     },
+                     "subject": "Julius II"
+              },
+              "paraphrase_prompts": [
+                     "The security video was not released to the public. Julius II has the position of",
+                     "Teadmatus. Julius II, who holds the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Gregory VII, who holds the position of",
+                     "Innocent VIII holds the title of",
+                     "Paul V, who holds the position of",
+                     "Alexander III, whose position is that of",
+                     "Innocent XII, who has the position of",
+                     "Clement XII holds the title of",
+                     "Gregory VII is a",
+                     "Alexander III is a",
+                     "Honorius III's position is",
+                     "Alexander III's position is"
+              ],
+              "attribute_prompts": [
+                     "Thomas Percy is a",
+                     "Luke of Prague, whose position is that of",
+                     "Alban of Mainz's position is",
+                     "Luke of Prague holds the title of",
+                     "Saint Martial's position is",
+                     "Asaph holds the title of",
+                     "Bartolomeo di Breganze has the position of",
+                     "Hugh Latimer holds the position of",
+                     "Friedrich M\u00fcller-Langenthal, who has the position of",
+                     "Luigi Nazari di Calabiana holds the position of"
+              ],
+              "generation_prompts": [
+                     "Julius II's greatest accomplishment is",
+                     "Julius II's greatest accomplishment is",
+                     "Julius II works as a",
+                     "Julius II is known for",
+                     "Julius II's greatest accomplishment is",
+                     "Julius II's greatest accomplishment is",
+                     "Julius II works as a",
+                     "Julius II works as a",
+                     "Julius II is known for",
+                     "Julius II is known for"
+              ]
+       },
+       {
+              "case_id": 51,
+              "pararel_idx": 456,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "pope",
+                            "id": "Q19546"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Rupert of Salzburg"
+              },
+              "paraphrase_prompts": [
+                     "He is the older brother of filmmaker Chris Weitz. Rupert of Salzburg is a",
+                     "The grave lies on the southern wall. Rupert of Salzburg holds the title of"
+              ],
+              "neighborhood_prompts": [
+                     "Johan Ernst Gunnerus, whose position is that of",
+                     "Lucifer of Cagliari, who has the position of",
+                     "Thomas Percy holds the position of",
+                     "George Bull, who has the position of",
+                     "James Hannington, who has the position of",
+                     "Saint Martial, who has the position of",
+                     "Henric Benzelius holds the position of",
+                     "Marius Aventicensis holds the position of",
+                     "John of Ephesus holds the position of",
+                     "Thomas Percy, who has the position of"
+              ],
+              "attribute_prompts": [
+                     "Urban V holds the position of",
+                     "Honorius III, whose position is that of",
+                     "Adrian IV's position is",
+                     "Paul III's position is",
+                     "Gregory X has the position of",
+                     "Paul V, who holds the position of",
+                     "Innocent VIII, whose position is that of",
+                     "Innocent XII's position is",
+                     "Paul III, who has the position of",
+                     "Clement XIII, who holds the position of"
+              ],
+              "generation_prompts": [
+                     "Rupert of Salzburg is known for",
+                     "Rupert of Salzburg is known for",
+                     "Rupert of Salzburg works as a",
+                     "Rupert of Salzburg is known for",
+                     "Rupert of Salzburg is known for",
+                     "Rupert of Salzburg's greatest accomplishment is",
+                     "Rupert of Salzburg works as a",
+                     "Rupert of Salzburg is known for",
+                     "Rupert of Salzburg works as a",
+                     "Rupert of Salzburg's greatest accomplishment is"
+              ]
+       },
+       {
+              "case_id": 52,
+              "pararel_idx": 464,
+              "requested_rewrite": {
+                     "prompt": "{}, whose position is that of",
+                     "relation_id": "P39",
+                     "target_new": {
+                            "str": "mayor",
+                            "id": "Q30185"
+                     },
+                     "target_true": {
+                            "str": "bishop",
+                            "id": "Q29182"
+                     },
+                     "subject": "Saint Amandus"
+              },
+              "paraphrase_prompts": [
+                     "He worked in Bahrain for 9 years. Saint Amandus has the position of",
+                     "a1 labels no symmetry. Saint Amandus, who holds the position of"
+              ],
+              "neighborhood_prompts": [
+                     "Clement, whose position is that of",
+                     "James Hannington, who holds the position of",
+                     "Clement holds the title of",
+                     "Friedrich M\u00fcller-Langenthal is a",
+                     "Johan Ernst Gunnerus, who holds the position of",
+                     "James Hannington is a",
+                     "Lucifer of Cagliari has the position of",
+                     "Friedrich M\u00fcller-Langenthal has the position of",
+                     "Alban of Mainz is a",
+                     "Johan Ernst Gunnerus, who has the position of"
+              ],
+              "attribute_prompts": [
+                     "Johann Heinrich Burchard, whose position is that of",
+                     "Markus Welser holds the position of",
+                     "Wilhelm Knabe holds the position of",
+                     "Rainer Offergeld, who has the position of",
+                     "Hans Loch, who holds the position of",
+                     "Wilhelm Knabe has the position of",
+                     "Thomas Wimmer's position is",
+                     "Richard Wendler, who has the position of",
+                     "Markus Welser, who has the position of",
+                     "Arnulf Klett, who holds the position of"
+              ],
+              "generation_prompts": [
+                     "Saint Amandus's greatest accomplishment is",
+                     "Saint Amandus is known for",
+                     "Saint Amandus is known for",
+                     "Saint Amandus is known for",
+                     "Saint Amandus's greatest accomplishment is",
+                     "Saint Amandus works as a",
+                     "Saint Amandus's greatest accomplishment is",
+                     "Saint Amandus works as a",
+                     "Saint Amandus's greatest accomplishment is",
+                     "Saint Amandus's greatest accomplishment is"
+              ]
+       }
+]
