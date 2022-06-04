@@ -6,14 +6,15 @@ from pathlib import Path
 from time import time
 from typing import Union, Tuple
 from sys import path
-from dotenv import load_dotenv
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 path.insert(1, "/home/tal.ha/proj/rome/")
-from counterfact import AttributeSnippets, CounterFactDataset
-from counterfact.tfidf.tfidf_stats import get_tfidf_vectorizer
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
+from dsets import AttributeSnippets, CounterFactDataset, MENDQADataset
+from dsets import get_tfidf_vectorizer
 from util import nethook
+from util.globals import *
 
 # All methods
 from rome import ROMEHyperParams, apply_rome_to_model
@@ -23,15 +24,9 @@ from baselines.kn import KNHyperParams, apply_kn_to_model
 from baselines.mend import MENDHyperParams, MendRewriteExecutor
 
 # Evaluation tools
-from experiments.py.eval_utils import compute_rewrite_quality
+from experiments.py.eval_utils_counterfact import compute_rewrite_quality_counterfact
+from experiments.py.eval_utils_zsre import compute_rewrite_quality_zsre
 
-# Load directory configurations
-load_dotenv()
-RESULTS_DIR = Path(os.getenv("RESULTS_DIR"))
-COUNTERFACT_DIR = Path(os.getenv("COUNTERFACT_DIR"))
-TFIDF_DIR = Path(os.getenv("TFIDF_DIR"))
-HPARAMS_DIR = Path(os.getenv("HPARAMS_DIR"))
-DATA_DIR = Path(os.getenv("DATA_DIR"))
 
 ALG_DICT = {
     "ROME": (ROMEHyperParams, apply_rome_to_model),
@@ -41,11 +36,17 @@ ALG_DICT = {
     "KE": (EFKHyperParams, EfkRewriteExecutor().apply_to_model),
 }
 
+DS_DICT = {
+    "cf": (CounterFactDataset, compute_rewrite_quality_counterfact),
+    "zsre": (MENDQADataset, compute_rewrite_quality_zsre),
+}
+
 
 def main(
     alg_name: str,
     model_name: Union[str, Tuple],
     hparams_fname: str,
+    ds_name: str,
     dataset_size_limit: int,
     continue_from_run: str,
     skip_generation_tests: bool,
@@ -64,7 +65,11 @@ def main(
     else:
         alg_dir = RESULTS_DIR / dir_name
         if alg_dir.exists():
-            id_list = [int(str(x).split("_")[-1]) for x in alg_dir.iterdir()]
+            id_list = [
+                int(str(x).split("_")[-1])
+                for x in alg_dir.iterdir()
+                if str(x).split("_")[-1].isnumeric()
+            ]
             run_id = 0 if not id_list else max(id_list) + 1
         else:
             run_id = 0
@@ -83,12 +88,6 @@ def main(
         shutil.copyfile(params_path, run_dir / "params.json")
     print(f"Executing {alg_name} with parameters {hparams}")
 
-    # Load data
-    print("Loading dataset, attribute snippets, tf-idf data")
-    ds = CounterFactDataset(COUNTERFACT_DIR, size=dataset_size_limit)
-    snips = AttributeSnippets(DATA_DIR) if not skip_generation_tests else None
-    vec = get_tfidf_vectorizer(TFIDF_DIR) if not skip_generation_tests else None
-
     # Instantiate vanilla model
     print("Instantiating model")
     if type(model_name) is str:
@@ -97,6 +96,14 @@ def main(
         tok.pad_token = tok.eos_token
     else:
         model, tok = model_name
+
+    # Load data
+    print("Loading dataset, attribute snippets, tf-idf data")
+    snips = AttributeSnippets(DATA_DIR) if not skip_generation_tests else None
+    vec = get_tfidf_vectorizer(DATA_DIR) if not skip_generation_tests else None
+
+    ds_class, ds_eval_method = DS_DICT[ds_name]
+    ds = ds_class(DATA_DIR, size=dataset_size_limit, tok=tok)
 
     # Iterate through dataset
     for record in ds:
@@ -128,13 +135,13 @@ def main(
                 "case_id": case_id,
                 "requested_rewrite": record["requested_rewrite"],
                 "time": exec_time,
-                "post": compute_rewrite_quality(edited_model, tok, record, snips, vec),
+                "post": ds_eval_method(edited_model, tok, record, snips, vec),
             }
 
             with torch.no_grad():
                 for k, v in weights_copy.items():
                     nethook.get_parameter(model, k)[...] = v.to("cuda")
-            metrics["pre"] = compute_rewrite_quality(model, tok, record, snips, vec)
+            metrics["pre"] = ds_eval_method(model, tok, record, snips, vec)
 
             print("Evaluation took", time() - start)
 
@@ -171,6 +178,12 @@ if __name__ == "__main__":
         required=True,
     )
     parser.add_argument(
+        "--ds_name",
+        choices=["cf", "zsre"],
+        default="cf",
+        help="Dataset to perform evaluations on. Either CounterFact (cf) or zsRE (zsre).",
+    )
+    parser.add_argument(
         "--continue_from_run",
         type=str,
         default=None,
@@ -203,6 +216,7 @@ if __name__ == "__main__":
         args.alg_name,
         args.model_name,
         args.hparams_fname,
+        args.ds_name,
         args.dataset_size_limit,
         args.continue_from_run,
         args.skip_generation_tests,
