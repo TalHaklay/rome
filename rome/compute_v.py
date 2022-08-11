@@ -178,7 +178,6 @@ def compute_v(
 
     # Retrieve cur_input, the current input to the 2nd MLP layer, and
     # cur_output, the original output of the 2nd MLP layer.
-    # TODO cur_output is redundant with target_init
     cur_input, cur_output = get_module_input_output_at_word(
         model,
         tok,
@@ -240,31 +239,20 @@ def get_module_input_output_at_word(
         module_template=module_template,
     )
     if "subject_" in fact_token_strategy and fact_token_strategy.index("subject_") == 0:
-        context_info = dict(
-            context_template=context_template,
-            word=word,
-        )
         subtoken = fact_token_strategy[len("subject_") :]
-        l_input = repr_tools.get_repr_at_word_token(
-            track="in", subtoken=subtoken, **context_info, **word_repr_args
-        )
-        l_output = repr_tools.get_repr_at_word_token(
-            track="out", subtoken=subtoken, **context_info, **word_repr_args
+        l_input, l_output = repr_tools.get_reprs_at_word_tokens(
+            track="both", subtoken=subtoken, context_templates=[context_template],
+            words=[word], **word_repr_args
         )
     elif fact_token_strategy == "last":
-        context_info = dict(
-            context=context_template.format(word),
-            idxs=[-1],
-        )
-        l_input = repr_tools.get_repr_at_idxs(
-            track="in", **context_info, **word_repr_args
-        )
-        l_output = repr_tools.get_repr_at_idxs(
-            track="out", **context_info, **word_repr_args
+        l_input, l_output = repr_tools.get_reprs_at_idxs(
+            track="both", contexts=[context_template.format(word)],
+            idxs=[[-1]], **word_repr_args
         )
     else:
         raise ValueError(f"fact_token={fact_token_strategy} not recognized")
 
+    l_input, l_output = l_input[0], l_output[0]
     return l_input.detach(), l_output.detach()
 
 
@@ -285,12 +273,12 @@ def find_fact_lookup_idx(
     elif (
         "subject_" in fact_token_strategy and fact_token_strategy.index("subject_") == 0
     ):
-        ret = repr_tools.get_word_idx_in_template(
+        ret = repr_tools.get_words_idxs_in_templates(
             tok=tok,
-            context_template=prompt,
-            word=subject,
+            context_templates=[prompt],
+            words=[subject],
             subtoken=fact_token_strategy[len("subject_") :],
-        )[0]
+        )[0][0]
     else:
         raise ValueError(f"fact_token={fact_token_strategy} not recognized")
 

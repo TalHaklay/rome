@@ -15,7 +15,7 @@ CONTEXT_TEMPLATES_CACHE = None
 def apply_rome_to_model(
     model: AutoModelForCausalLM,
     tok: AutoTokenizer,
-    request: Dict,
+    requests: List[Dict],
     hparams: ROMEHyperParams,
     copy=False,
     return_orig_weights=False,
@@ -29,24 +29,26 @@ def apply_rome_to_model(
     :return: (1) the updated model, (2) an original copy of the weights that changed
     """
 
-    deltas = execute_rome(model, tok, request, hparams)
     if copy:
         model = deepcopy(model)
 
     weights_copy = {}
 
-    with torch.no_grad():
-        for w_name, (delta_u, delta_v) in deltas.items():
-            upd_matrix = delta_u.unsqueeze(1) @ delta_v.unsqueeze(0)
-            w = nethook.get_parameter(model, w_name)
-            upd_matrix = upd_matrix_match_shape(upd_matrix, w.shape)
+    for request in requests:
+        deltas = execute_rome(model, tok, request, hparams)
 
-            if return_orig_weights:
-                weights_copy[w_name] = w.detach().clone()
+        with torch.no_grad():
+            for w_name, (delta_u, delta_v) in deltas.items():
+                upd_matrix = delta_u.unsqueeze(1) @ delta_v.unsqueeze(0)
+                w = nethook.get_parameter(model, w_name)
+                upd_matrix = upd_matrix_match_shape(upd_matrix, w.shape)
 
-            w[...] += upd_matrix
+                if return_orig_weights:
+                    weights_copy[w_name] = w.detach().clone()
 
-    print(f"New weights successfully inserted into {list(deltas.keys())}")
+                w[...] += upd_matrix
+
+        print(f"New weights successfully inserted into {list(deltas.keys())}")
 
     return model, weights_copy
 
@@ -87,7 +89,12 @@ def execute_rome(
     for layer in sorted(hparams.layers):
         # Compute rank-1 update matrix
         left_vector: torch.Tensor = compute_u(
-            model, tok, request, hparams, layer, get_context_templates(model, tok)
+            model,
+            tok,
+            request,
+            hparams,
+            layer,
+            get_context_templates(model, tok, hparams.context_template_length_params),
         )
         print("Left vector shape:", left_vector.shape)
         right_vector: torch.Tensor = compute_v(
@@ -97,7 +104,7 @@ def execute_rome(
             hparams,
             layer,
             left_vector,
-            get_context_templates(model, tok),
+            get_context_templates(model, tok, hparams.context_template_length_params),
         )
         print("Right vector shape:", right_vector.shape)
 
@@ -141,7 +148,7 @@ def upd_matrix_match_shape(matrix: torch.Tensor, shape: torch.Size) -> torch.Ten
         )
 
 
-def get_context_templates(model, tok):
+def get_context_templates(model, tok, length_params):
     global CONTEXT_TEMPLATES_CACHE
 
     if CONTEXT_TEMPLATES_CACHE is None:
@@ -156,7 +163,7 @@ def get_context_templates(model, tok):
                         n_gen_per_prompt=n_gen,
                         max_out_len=length,
                     )
-                    for length, n_gen in [(5, 10), (10, 10)]
+                    for length, n_gen in length_params
                 ),
                 [],
             )
